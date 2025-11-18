@@ -8,11 +8,11 @@ export default function Home() {
         <div>
           <img src="/logo-title.png" alt="EPC Hub Text Logo" width={300} height={75} />
         </div>
-        <ul className="flex space-x-8 text-2xl">
-          <li><a href="/about">About</a></li>
-          <li><a href="/books">Books</a></li>
-          <li><a href="/coaching">Coaching</a></li>
-          <li><a href="/contact">Contact</a></li>
+        <ul className="flex space-x-8 text-2xl home-nav">
+          <li><a href="/about" className="hover:underline underline-offset-4">About</a></li>
+          <li><a href="/books" className="hover:underline underline-offset-4">Books</a></li>
+          <li><a href="/coaching" className="hover:underline underline-offset-4">Coaching</a></li>
+          <li><a href="/contact" className="hover:underline underline-offset-4">Contact</a></li>
         </ul>
       </main>
     </div>
