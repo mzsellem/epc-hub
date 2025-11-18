@@ -19,7 +19,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
+    <div className="flex min-h-screen items-center justify-center font-sans p-8">
       <motion.main
         className="flex min-h-screen w-full flex-col items-center justify-center space-y-6"
         variants={containerVariants}
@@ -38,7 +38,7 @@ export default function Home() {
 
         {/* Home Nav */}
         <motion.ul
-          className="flex space-x-8 text-xl home-nav font-light"
+          className="flex space-x-8 text-md sm:text-xl home-nav font-light"
           variants={itemVariants}
         >
           <li><a href="/about" className="hover:underline underline-offset-4 decoration-1">About</a></li>
