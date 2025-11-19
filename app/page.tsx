@@ -13,9 +13,19 @@ export default function Home() {
     },
   };
 
+  const slowLogoVariants = {
+  hidden: { opacity: 0, y: -20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 2.0, ease: "easeOut" } // slower fade-in
+  },
+};
+
+
   const itemVariants = {
     hidden: { opacity: 0, y: -20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+    visible: { opacity: 1, y: 0, transition: { duration: 2.0, ease: "easeOut" } },
   };
 
   return (
@@ -27,7 +37,7 @@ export default function Home() {
         animate="visible"
       >
         {/* Logo */}
-        <motion.div variants={itemVariants}>
+        <motion.div variants={slowLogoVariants}>
           <img src="/logo.png" alt="EPC Hub Logo" width={125} height={125} />
         </motion.div>
 
@@ -39,7 +49,7 @@ export default function Home() {
         {/* Home Nav */}
         <motion.ul
           className="flex space-x-8 text-md sm:text-xl home-nav font-light"
-          variants={itemVariants}
+          variants={slowLogoVariants}
         >
           <li><a href="/about" className="hover:underline underline-offset-4 decoration-1">About</a></li>
           <li><a href="/books" className="hover:underline underline-offset-4 decoration-1">Books</a></li>
