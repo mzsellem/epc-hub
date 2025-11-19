@@ -7,7 +7,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-black text-gold">
+    <header className="w-full bg-black text-[#d4af37] z-50 relative">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
         
         {/* Logo */}
@@ -21,68 +21,50 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-10 text-lg font-light">
-          <a href="/about" className="hover:underline underline-offset-4 text-[#d4af37]">
-            About
-          </a>
-          <a href="/books" className="hover:underline underline-offset-4 text-[#d4af37]">
-            Books
-          </a>
-          <a href="/coaching" className="hover:underline underline-offset-4 text-[#d4af37]">
-            Coaching
-          </a>
-          <a href="/contact" className="hover:underline underline-offset-4 text-[#d4af37]">
-            Contact
-          </a>
+          <a href="/about" className="hover:underline underline-offset-4">About</a>
+          <a href="/books" className="hover:underline underline-offset-4">Books</a>
+          <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
+          <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
         </nav>
 
         {/* Hamburger Button */}
         <button
           className="md:hidden flex flex-col space-y-1"
-          onClick={() => setOpen(!open)}
+          onClick={() => setOpen(true)}
         >
-          <span className="w-6 h-0.5 bg-[#d4af37]"></span>
-          <span className="w-6 h-0.5 bg-[#d4af37]"></span>
-          <span className="w-6 h-0.5 bg-[#d4af37]"></span>
+          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
+          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
+          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
         </button>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+      {/* 🔥 Full Screen Mobile Menu Overlay */}
       <AnimatePresence>
         {open && (
-          <motion.nav
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-black px-6 pb-4"
+            className="fixed inset-0 bg-black z-50 flex flex-col px-8 pt-8"
           >
-            <div className="flex flex-col space-y-4 text-lg">
-              <a
-                href="/about"
-                className="text-[#d4af37] hover:underline underline-offset-4"
-              >
-                About
-              </a>
-              <a
-                href="/books"
-                className="text-[#d4af37] hover:underline underline-offset-4"
-              >
-                Books
-              </a>
-              <a
-                href="/coaching"
-                className="text-[#d4af37] hover:underline underline-offset-4"
-              >
-                Coaching
-              </a>
-              <a
-                href="/contact"
-                className="text-[#d4af37] hover:underline underline-offset-4"
-              >
-                Contact
-              </a>
-            </div>
-          </motion.nav>
+            {/* Close Button */}
+            <button
+              onClick={() => setOpen(false)}
+              className="ml-auto mb-10"
+            >
+              <span className="block w-8 h-0.5 bg-[#d4af37] rotate-45 translate-y-1"></span>
+              <span className="block w-8 h-0.5 bg-[#d4af37] -rotate-45 -translate-y-1"></span>
+            </button>
+
+            {/* Menu Links */}
+            <nav className="flex flex-col space-y-8 text-3xl font-light">
+              <a onClick={() => setOpen(false)} href="/about" className="hover:underline underline-offset-4">About</a>
+              <a onClick={() => setOpen(false)} href="/books" className="hover:underline underline-offset-4">Books</a>
+              <a onClick={() => setOpen(false)} href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
+              <a onClick={() => setOpen(false)} href="/contact" className="hover:underline underline-offset-4">Contact</a>
+            </nav>
+          </motion.div>
         )}
       </AnimatePresence>
     </header>
