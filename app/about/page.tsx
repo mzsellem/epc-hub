@@ -31,7 +31,25 @@ export default function About() {
                 families thrive in a world that rarely slows down.
             </p>
             </section>
+            <section 
+              className="w-full py-24 header bg-gradient-radial from-neutral-600 to-#383838" 
+              style={{background: "radial-gradient(circle at center, #a1a1a1, #1f1f1f)"}}>
+          <div className="layout-width text-center flex flex-col items-center space-y-6">
 
+            {/* Heading */}
+            <h1 className="text-4xl md:text-2xl font-semibold">
+              Transform your mindset — one chapter at a time.
+            </h1>
+
+            {/* Centered Button */}
+            <a
+              href="/books"
+              className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
+            >
+              Explore
+            </a>
+          </div>
+        </section>
         </main>
         </div>
     </>
