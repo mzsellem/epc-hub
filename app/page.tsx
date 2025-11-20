@@ -1,60 +1,83 @@
-"use client"; // required in Next.js App Router
+"use client";
 
 import { motion } from "framer-motion";
 
 export default function Home() {
-  // Variants for staggered animation
+  // Container for staggered animations
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 1.25, // each child delays by 0.2s
+        staggerChildren: 0.8, // stagger between children
       },
     },
   };
 
-  const slowLogoVariants = {
-  hidden: { opacity: 0, y: -20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 2.0, ease: "easeOut" } // slower fade-in
-  },
-};
+  // Slow fade-in for logo
+  const slowFadeVariants = {
+    hidden: { opacity: 0, y: -10 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.8, ease: "easeOut" } },
+  };
 
+  // Slightly faster fade-in for title and nav
+  const fadeVariants = {
+    hidden: { opacity: 0, y: -5 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } },
+  };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: -20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 2.0, ease: "easeOut" } },
+  // Animated background fade-in
+  const bgVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { duration: 2.0, ease: "easeOut" } },
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans p-8">
+    <div className="relative min-h-screen flex items-center justify-center font-sans px-6 sm:px-8 md:px-12">
+      {/* Animated radial gradient background */}
+      <motion.div
+        className="absolute inset-0"
+        style={{
+          background: "radial-gradient(circle, rgba(221,173,17,0.05) 0%, #121212 100%)",
+        }}
+        variants={bgVariants}
+        initial="hidden"
+        animate="visible"
+      />
+
+      {/* Main content */}
       <motion.main
-        className="flex min-h-screen w-full flex-col items-center justify-center space-y-6"
+        className="relative flex flex-col items-center justify-center space-y-8 md:space-y-12 z-10 w-full max-w-4xl text-center"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         {/* Logo */}
-        <motion.div variants={slowLogoVariants}>
+        <motion.div variants={slowFadeVariants}>
           <img src="/logo.png" alt="EPC Hub Logo" width={125} height={125} />
         </motion.div>
 
         {/* Logo Title */}
-        <motion.div variants={itemVariants}>
+        <motion.div variants={fadeVariants}>
           <img src="/logo-title.png" alt="EPC Hub Text Logo" width={400} height={100} />
         </motion.div>
 
-        {/* Home Nav */}
+        {/* Navigation */}
         <motion.ul
-          className="flex space-x-8 text-md sm:text-xl home-nav font-light"
-          variants={slowLogoVariants}
+          className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
+          variants={fadeVariants}
         >
-          <li><a href="/about" className="hover:underline underline-offset-4 decoration-1">About</a></li>
-          <li><a href="/books" className="hover:underline underline-offset-4 decoration-1">Books</a></li>
-          <li><a href="/coaching" className="hover:underline underline-offset-4 decoration-1">Coaching</a></li>
-          <li><a href="/contact" className="hover:underline underline-offset-4 decoration-1">Contact</a></li>
+          <li>
+            <a href="/about" className="hover:underline underline-offset-4">About</a>
+          </li>
+          <li>
+            <a href="/books" className="hover:underline underline-offset-4">Books</a>
+          </li>
+          <li>
+            <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
+          </li>
+          <li>
+            <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
+          </li>
         </motion.ul>
       </motion.main>
     </div>

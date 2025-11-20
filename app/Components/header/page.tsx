@@ -13,6 +13,7 @@ export default function Header() {
 
     <div className="relative max-w-6xl mx-auto flex items-center justify-between py-4 px-4 sm:px-6 md:px-6 text-[#d4af37] layout-width">
       {/* Logo */}
+      <a href="/" className="flex items-center">
       <img
         src="/logo.png"
         alt="EPC Hub Logo"
@@ -20,6 +21,7 @@ export default function Header() {
         height={60}
         className="cursor-pointer relative z-10"
       />
+      </a>
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex space-x-6 lg:space-x-10 text-sm sm:text-base md:text-lg font-light relative z-10">
