@@ -40,3 +40,34 @@ body {
 .paragraph {
   color: #BFBFBF;
 }
+
+/* UNIVERSAL LAYOUT WRAPPER (aligns header + page content) */
+.layout-width {
+  width: 100%;
+  max-width: 52rem; /* adjust to your preference */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Reduce padding for mobile */
+@media (min-width: 640px) {
+  .layout-width {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .layout-width {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* MAIN PAGE SPACING */
+.page-container {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}

@@ -8,14 +8,14 @@ export default function Header() {
 
   return (
     <header className="w-full bg-black text-[#d4af37] z-50 relative">
-      <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
+      <div className="max-w-4xl mx-auto flex items-center py-4 px-6 justify-between layout-width">
         
         {/* Logo */}
         <img
           src="/logo.png"
           alt="EPC Hub Logo"
-          width={60}
-          height={60}
+          width={40}
+          height={20}
           className="cursor-pointer"
         />
 
@@ -29,9 +29,10 @@ export default function Header() {
 
         {/* Hamburger Button */}
         <button
-          className="md:hidden flex flex-col space-y-1"
+          className="md:hidden flex flex-col space-y-1 border"
           onClick={() => setOpen(true)}
         >
+          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
           <span className="w-7 h-0.5 bg-[#d4af37]"></span>
           <span className="w-7 h-0.5 bg-[#d4af37]"></span>
           <span className="w-7 h-0.5 bg-[#d4af37]"></span>
