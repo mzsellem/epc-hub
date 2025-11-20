@@ -1,73 +1,43 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-black header sticky top-0 z-50">
-      <div className="max-w-4xl mx-auto flex items-center py-4 px-6 justify-between layout-width">
-        
-        {/* Logo */}
-        <img
-          src="/logo.png"
-          alt="EPC Hub Logo"
-          width={40}
-          height={20}
-          className="cursor-pointer"
-        />
+    <header className="w-full sticky top-0 z-50">
+  <div className="relative bg-black">
+    {/* Gradient overlay */}
+    <div className="absolute inset-0 bg-linear-to-b from-#757575 to-[#1f1f1f] pointer-events-none"></div>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-10 text-lg font-light">
-          <a href="/about" className="hover:underline underline-offset-4">About</a>
-          <a href="/books" className="hover:underline underline-offset-4">Books</a>
-          <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
-          <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
-        </nav>
+    <div className="relative max-w-6xl mx-auto flex items-center justify-between py-4 px-4 sm:px-6 md:px-6 text-[#d4af37] layout-width">
+      {/* Logo */}
+      <img
+        src="/logo.png"
+        alt="EPC Hub Logo"
+        width={40}
+        height={60}
+        className="cursor-pointer relative z-10"
+      />
 
-        {/* Hamburger Button */}
-        <button
-          className="md:hidden flex flex-col space-y-1 border"
-          onClick={() => setOpen(true)}
-        >
-          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
-          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
-          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
-          <span className="w-7 h-0.5 bg-[#d4af37]"></span>
-        </button>
-      </div>
+      {/* Desktop Nav */}
+      <nav className="hidden md:flex space-x-6 lg:space-x-10 text-sm sm:text-base md:text-lg font-light relative z-10">
+        <a href="/about" className="hover:underline underline-offset-4">About</a>
+        <a href="/books" className="hover:underline underline-offset-4">Books</a>
+        <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
+        <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
+      </nav>
 
-      {/* 🔥 Full Screen Mobile Menu Overlay */}
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-black z-50 flex flex-col px-8 pt-8"
-          >
-            {/* Close Button */}
-            <button
-              onClick={() => setOpen(false)}
-              className="ml-auto mb-10"
-            >
-              <span className="block w-8 h-0.5 bg-[#d4af37] rotate-45 translate-y-1"></span>
-              <span className="block w-8 h-0.5 bg-[#d4af37] -rotate-45 -translate-y-1"></span>
-            </button>
+      {/* Hamburger */}
+      <button className="md:hidden flex flex-col space-y-1 relative z-10">
+        <span className="w-7 h-0.5 bg-[#d4af37]"></span>
+        <span className="w-7 h-0.5 bg-[#d4af37]"></span>
+        <span className="w-7 h-0.5 bg-[#d4af37]"></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-            {/* Menu Links */}
-            <nav className="flex flex-col space-y-8 text-3xl font-light">
-              <a onClick={() => setOpen(false)} href="/about" className="hover:underline underline-offset-4">About</a>
-              <a onClick={() => setOpen(false)} href="/books" className="hover:underline underline-offset-4">Books</a>
-              <a onClick={() => setOpen(false)} href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
-              <a onClick={() => setOpen(false)} href="/contact" className="hover:underline underline-offset-4">Contact</a>
-            </nav>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </header>
   );
 }

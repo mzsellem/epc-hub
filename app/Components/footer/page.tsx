@@ -1,9 +1,14 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-[#d4af37] py-8 z-50">
-      <div className="layout-width flex flex-col items-center space-y-4">
+    <footer className="w-full relative">
+  <div className="relative bg-black">
+    {/* Gradient overlay */}
+    <div className="absolute inset-0 bg-linear-to-t from- #757575 to-[#1f1f1f] pointer-events-none"></div>
 
-        {/* Social Icons Row */}
+    <div className="relative layout-width max-w-6xl flex flex-col items-center space-y-4 py-8 px-4 sm:px-6 md:px-6 text-[#d4af37]">
+      {/* Social Icons */}
+      <div className="flex space-x-6">
+          {/* Social Icons Row */}
         <div className="flex space-x-6">
           {/* LinkedIn */}
           <a
@@ -61,16 +66,18 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-
-        {/* Text Row */}
-        <div className="text-sm text-center header">
-          © 2025 Executive Parent Company | 
-          <a href="/privacy" className="hover:underline px-1">Privacy</a> | 
-          <a href="/terms" className="hover:underline px-1">Terms</a> | 
-          <a href="/disclaimer" className="hover:underline px-1">Disclaimer</a>
-        </div>
-
       </div>
-    </footer>
+
+      {/* Text Row */}
+      <div className="text-sm sm:text-base text-center">
+        © 2025 Executive Parent Company | 
+        <a href="/privacy" className="hover:underline px-1">Privacy</a> | 
+        <a href="/terms" className="hover:underline px-1">Terms</a> | 
+        <a href="/disclaimer" className="hover:underline px-1">Disclaimer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
   );
 }
