@@ -1,4 +1,5 @@
 import Header from '../Components/header/page';
+import Footer from '../Components/footer/page';
 
 export default function About() {
   return (
@@ -52,6 +53,7 @@ export default function About() {
         </section>
         </main>
         </div>
+        <Footer />
     </>
   );
 }
