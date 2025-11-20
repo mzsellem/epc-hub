@@ -7,7 +7,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-black header z-50 relative">
+    <header className="w-full bg-black header sticky top-0 z-50">
       <div className="max-w-4xl mx-auto flex items-center py-4 px-6 justify-between layout-width">
         
         {/* Logo */}

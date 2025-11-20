@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-[#d4af37] py-8">
+    <footer className="w-full bg-black text-[#d4af37] py-8 z-50">
       <div className="layout-width flex flex-col items-center space-y-4">
 
         {/* Social Icons Row */}
