@@ -33,24 +33,31 @@ export default function About() {
             </p>
             </section>
             <section 
-              className="w-full py-24 header bg-gradient-radial from-neutral-600 to-#383838" 
-              style={{background: "radial-gradient(circle at center, #a1a1a1, #1f1f1f)"}}>
-          <div className="layout-width text-center flex flex-col items-center space-y-6">
+  className="relative w-full py-24 header bg-[#1f1f1f]"
+>
+  <div
+    className="absolute inset-0"
+    style={{
+      background:
+        "radial-gradient(circle at center, rgba(255,255,255,0.06) 0%, rgba(31,31,31,1) 70%)",
+    }}
+  />
 
-            {/* Heading */}
-            <h1 className="text-4xl md:text-2xl font-semibold">
-              Transform your mindset — one chapter at a time.
-            </h1>
+  <div className="relative layout-width text-center flex flex-col items-center space-y-6">
+    <h1 className="text-4xl md:text-2xl font-semibold">
+      Transform your mindset — one chapter at a time.
+    </h1>
 
-            {/* Centered Button */}
-            <a
-              href="/books"
-              className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
-            >
-              Explore
-            </a>
-          </div>
-        </section>
+    <a
+      href="/books"
+      className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
+    >
+      Explore
+    </a>
+  </div>
+</section>
+
+
         </main>
         </div>
         <Footer />
