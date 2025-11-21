@@ -7,8 +7,8 @@ export default function About() {
         <Header />
         <div className="min-h-screen flex justify-center px-6 py-20 font-sans">
           <main className="max-w-3xl w-full flex flex-col space-y-16">
-              
-             {/* SECTION WRAPPER */}
+            {/* <h1 className='flex justify-center header text-3xl'>About</h1> */}
+            {/* SECTION WRAPPER */}
             <div className="space-y-28">
 
               {/* Mission Section */}
@@ -16,17 +16,20 @@ export default function About() {
                 <img 
                   src="/kenyada.png" 
                   alt="Kenyada" 
-                  className="w-full md:w-1/3 rounded-lg shadow-lg object-cover"
+                  className="w-1/2 md:w-1/3 rounded-lg shadow-lg object-cover"
                 />
 
                 <div className="flex-1">
-                  <h2 className="text-3xl font-semibold mb-4 header">Our Mission</h2>
-                  <p className="text-lg leading-relaxed paragraph">
+                  <h2 className="flex justify-center sm:justify-start text-3xl font-semibold mb-4 header">Our Mission</h2>
+                  <p className="text-center sm:text-left text-lg leading-relaxed paragraph">
                     At EPC Hub, our mission is to empower executive parents with tools,
                     strategies, and a supportive community that helps them excel in both
                     their professional and personal lives. We believe that leadership
                     starts at home and extends into the workplace, and we are dedicated
-                    to guiding families toward healthier, more intentional success.
+                    to guiding families toward healthier, more intentional success. and 
+                    we are dedicated to guiding families toward healthier, more intentional
+                    success. and we are dedicated to guiding families toward healthier, more
+                    intentional success.
                   </p>
                 </div>
               </section>
@@ -37,11 +40,11 @@ export default function About() {
 
                 <div className="flex-1">
                   {/* Gold Divider */}
-                  <div className="w-16 h-1 bg-[#DDAD11] mb-6 rounded-full"></div>
+                  <div className="w-16 h-1 bg-[#DDAD11] mb-6 rounded-full mx-auto md:mx-0"></div>
 
-                  <h2 className="text-3xl font-semibold mb-4 header">Our Story</h2>
+                  <h2 className="flex justify-center sm:justify-start text-3xl font-semibold mb-4 header">Our Story</h2>
 
-                  <p className="text-lg leading-relaxed paragraph">
+                  <p className="text-center sm:text-left text-lg leading-relaxed paragraph">
                     EPC Hub was founded with the understanding that executive parents
                     face unique challenges—from burnout to competing priorities to the
                     constant pressure to perform. Our goal is to offer a space that
@@ -55,7 +58,7 @@ export default function About() {
                 <img 
                   src="/kenyada.png"
                   alt="Kenyada Portrait"
-                  className="w-full md:w-1/3 rounded-lg shadow-lg object-cover"
+                  className="w-1/2 md:w-1/3 rounded-lg shadow-lg object-cover"
                 />
               </section>
             </div>
@@ -66,7 +69,7 @@ export default function About() {
                 className="absolute inset-0"
                 style={{background:"radial-gradient(circle at center, rgba(255,255,255,0.06) 0%, rgba(31,31,31,1) 70%)",}}/>
                   <div className="relative layout-width text-center flex flex-col items-center space-y-6">
-                    <h1 className="text-4xl md:text-2xl font-semibold">
+                    <h1 className="text-2xl md:text-2xl font-semibold">
                       Transform your mindset — one chapter at a time.
                     </h1>
                     <a 
