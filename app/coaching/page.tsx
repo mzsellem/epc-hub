@@ -12,7 +12,7 @@ export default function CoachingPage() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-5xl font-semibold">
-            Schedule A Session
+            Unlock Your Potential
           </h1>
 
           {/* Description */}
