@@ -60,36 +60,33 @@ export default function Home() {
         <motion.div variants={fadeVariants}>
           <img src="/logo-title.png" alt="EPC Hub Text Logo" width={400} height={100} />
         </motion.div>
-
         {/* Navigation */}
-<motion.ul
-  className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
-  variants={fadeVariants}
->
-  {[
-    { href: "/about", label: "About" },
-    { href: "/books", label: "Books" },
-    { href: "/coaching", label: "Coaching" },
-    { href: "/contact", label: "Contact" },
-  ].map((link) => (
-    <li key={link.href}>
-      <a
-        href={link.href}
-        className="
-          relative px-2 transition-all duration-300
-          before:absolute before:inset-0 before:rounded-full
-          before:bg-[#DDAD11] before:opacity-0 before:blur-xl
-          before:transition-opacity before:duration-300
-          lg:hover:before:opacity-60   /* spotlight only on desktop */
-        "
-      >
-        {link.label}
-      </a>
-    </li>
-  ))}
-</motion.ul>
-
-
+        <motion.ul
+          className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
+          variants={fadeVariants}
+        >
+          {[
+            { href: "/about", label: "About" },
+            { href: "/books", label: "Books" },
+            { href: "/coaching", label: "Coaching" },
+            { href: "/contact", label: "Contact" },
+          ].map((link) => 
+            <li key={link.href}>
+              <a
+                href={link.href}
+                className="
+                  relative px-2 transition-all duration-300
+                  before:absolute before:inset-0 before:rounded-full
+                  before:bg-[#DDAD11] before:opacity-0 before:blur-xl
+                  before:transition-opacity before:duration-300
+                  lg:hover:before:opacity-60   /* spotlight only on desktop */
+                "
+              >
+                {link.label}
+              </a>
+            </li>
+          )}
+        </motion.ul>
       </motion.main>
     </div>
   );
