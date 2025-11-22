@@ -1,7 +1,7 @@
 import Header from '../Components/header/page';
 import Footer from '../Components/footer/page';
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     <>
       <Header />
