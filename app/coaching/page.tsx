@@ -23,7 +23,7 @@ export default function CoachingPage() {
 
           {/* Divider */}
           <div className="flex justify-center">
-            <div className="w-24 h-[2px] bg-[#DDAD11] rounded-full"></div>
+            <div className="w-24 h-0.5 bg-[#DDAD11] rounded-full"></div>
           </div>
 
           {/* Button to scheduling page */}
