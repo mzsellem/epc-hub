@@ -62,23 +62,63 @@ export default function Home() {
         </motion.div>
 
         {/* Navigation */}
-        <motion.ul
-          className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
-          variants={fadeVariants}
-        >
-          <li>
-            <a href="/about" className="hover:underline underline-offset-4">About</a>
-          </li>
-          <li>
-            <a href="/books" className="hover:underline underline-offset-4">Books</a>
-          </li>
-          <li>
-            <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
-          </li>
-          <li>
-            <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
-          </li>
-        </motion.ul>
+<motion.ul
+  className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
+  variants={fadeVariants}
+>
+  <li>
+    <a
+      href="/about"
+      className="relative px-2 transition-all duration-300 
+                 before:absolute before:inset-0 before:rounded-full 
+                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
+                 before:transition-opacity before:duration-300 
+                 hover:before:opacity-60"
+    >
+      About
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="/books"
+      className="relative px-2 transition-all duration-300 
+                 before:absolute before:inset-0 before:rounded-full 
+                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
+                 before:transition-opacity before:duration-300 
+                 hover:before:opacity-60"
+    >
+      Books
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="/coaching"
+      className="relative px-2 transition-all duration-300 
+                 before:absolute before:inset-0 before:rounded-full 
+                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
+                 before:transition-opacity before:duration-300 
+                 hover:before:opacity-60"
+    >
+      Coaching
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="/contact"
+      className="relative px-2 transition-all duration-300 
+                 before:absolute before:inset-0 before:rounded-full 
+                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
+                 before:transition-opacity before:duration-300 
+                 hover:before:opacity-60"
+    >
+      Contact
+    </a>
+  </li>
+</motion.ul>
+
       </motion.main>
     </div>
   );
