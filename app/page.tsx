@@ -66,58 +66,29 @@ export default function Home() {
   className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-light text-[#DDAD11]"
   variants={fadeVariants}
 >
-  <li>
-    <a
-      href="/about"
-      className="relative px-2 transition-all duration-300 
-                 before:absolute before:inset-0 before:rounded-full 
-                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
-                 before:transition-opacity before:duration-300 
-                 hover:before:opacity-60"
-    >
-      About
-    </a>
-  </li>
-
-  <li>
-    <a
-      href="/books"
-      className="relative px-2 transition-all duration-300 
-                 before:absolute before:inset-0 before:rounded-full 
-                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
-                 before:transition-opacity before:duration-300 
-                 hover:before:opacity-60"
-    >
-      Books
-    </a>
-  </li>
-
-  <li>
-    <a
-      href="/coaching"
-      className="relative px-2 transition-all duration-300 
-                 before:absolute before:inset-0 before:rounded-full 
-                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
-                 before:transition-opacity before:duration-300 
-                 hover:before:opacity-60"
-    >
-      Coaching
-    </a>
-  </li>
-
-  <li>
-    <a
-      href="/contact"
-      className="relative px-2 transition-all duration-300 
-                 before:absolute before:inset-0 before:rounded-full 
-                 before:bg-[#DDAD11] before:opacity-0 before:blur-xl 
-                 before:transition-opacity before:duration-300 
-                 hover:before:opacity-60"
-    >
-      Contact
-    </a>
-  </li>
+  {[
+    { href: "/about", label: "About" },
+    { href: "/books", label: "Books" },
+    { href: "/coaching", label: "Coaching" },
+    { href: "/contact", label: "Contact" },
+  ].map((link) => (
+    <li key={link.href}>
+      <a
+        href={link.href}
+        className="
+          relative px-2 transition-all duration-300
+          before:absolute before:inset-0 before:rounded-full
+          before:bg-[#DDAD11] before:opacity-0 before:blur-xl
+          before:transition-opacity before:duration-300
+          lg:hover:before:opacity-60   /* spotlight only on desktop */
+        "
+      >
+        {link.label}
+      </a>
+    </li>
+  ))}
 </motion.ul>
+
 
       </motion.main>
     </div>
