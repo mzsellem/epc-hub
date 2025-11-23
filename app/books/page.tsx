@@ -12,15 +12,47 @@ export default function BooksPage() {
           <section
   className="space-y-10 text-center relative"
   style={{
-    background: "radial-gradient(circle at center, #539277 0%, #1F1F1F 70%)",
+    WebkitMaskImage: `
+      radial-gradient(
+        circle at center,
+        black 60%,
+        transparent 100%
+      )
+    `,
+    maskImage: `
+      radial-gradient(
+        circle at center,
+        #757575 60%,
+        transparent 100%
+      )
+    `,
+    background: `
+      radial-gradient(
+        circle at center,
+        #3f7d63 0%,
+        #1F1F1F 70%
+      )
+    `,
     padding: "4rem 1.5rem",
-    borderRadius: "1rem",
   }}
 >
+
   <h1 className="text-4xl font-semibold header">Featuring</h1>
 
   {/* Featured Book Card */}
-  <div className="flex flex-col items-center space-y-8 bg-[#0f0f0f]/60 backdrop-blur-sm p-6 shadow-2xl rounded-xl">
+  <div
+  className="flex flex-col items-center space-y-8 backdrop-blur-sm p-6 shadow-2xl relative rounded-xl"
+  style={{
+    background: `
+      radial-gradient(
+        circle at center,
+        rgba(15,15,15,0.6) 0%,
+        rgba(15,15,15,0.4) 60%,
+        #1F1F1F 100%
+      )
+    `,
+  }}
+>
     
     <img 
       src="/the-new-alpha.png"
