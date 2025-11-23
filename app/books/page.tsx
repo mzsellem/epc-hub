@@ -36,7 +36,8 @@ export default function BooksPage() {
   }}
 >
 
-  <h1 className="text-4xl font-semibold header">Featuring</h1>
+  <h1 className="text-4xl font-semibold header" style={{ color: "#FFFFFF" }}>Featuring</h1>
+
 
   {/* Featured Book Card */}
   <div
