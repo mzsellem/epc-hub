@@ -9,37 +9,42 @@ export default function BooksPage() {
       <div className="min-h-screen flex justify-center px-6 py-20 font-sans">
         <main className="max-w-4xl w-full space-y-24">
           
-          {/* FEATURED SECTION */}
-          <section className="space-y-10 text-center">
-            <h1 className="text-4xl font-semibold header">Featured</h1>
+          <section
+  className="space-y-10 text-center relative"
+  style={{
+    background: "radial-gradient(circle at center, #539277 0%, #1F1F1F 70%)",
+    padding: "4rem 1.5rem",
+    borderRadius: "1rem",
+  }}
+>
+  <h1 className="text-4xl font-semibold header">Featuring</h1>
 
-            {/* Featured Book Card */}
-            <div className="flex flex-col items-center space-y-8">
-              
-              {/* Image with subtle drop shadow */}
-              <img 
-                src="/featured-book.png"
-                alt="Featured Book"
-                className="w-64 md:w-72 rounded-lg shadow-xl"
-              />
+  {/* Featured Book Card */}
+  <div className="flex flex-col items-center space-y-8 bg-[#0f0f0f]/60 backdrop-blur-sm p-6 shadow-2xl rounded-xl">
+    
+    <img 
+      src="/the-new-alpha.png"
+      alt="Featured Book"
+      className="w-64 md:w-72 rounded-lg shadow-xl"
+    />
 
-              {/* Description */}
-              <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
-                This powerful guide helps executive parents reclaim balance,
-                strengthen leadership at home, and thrive with intention in every
-                area of life. A modern roadmap for ambitious families who want
-                to grow without burning out.
-              </p>
+    <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
+      This powerful guide helps executive parents reclaim balance,
+      strengthen leadership at home, and thrive with intention in every
+      area of life. A modern roadmap for ambitious families who want
+      to grow without burning out.
+    </p>
 
-              {/* CTA Button */}
-              <a 
-                href="#"
-                className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
-              >
-                Buy
-              </a>
-            </div>
-          </section>
+    <a 
+      href="#"
+      className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
+    >
+      Buy
+    </a>
+  </div>
+</section>
+
+
 
           {/* OTHER BOOKS SECTION */}
           <section className="space-y-10">
