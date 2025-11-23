@@ -6,8 +6,8 @@ export default function BooksPage() {
     <>
       <Header />
 
-      <div className="min-h-screen flex justify-center px-6 py-20 font-sans">
-        <main className="max-w-4xl w-full space-y-24">
+     <div className="min-h-screen flex justify-center px-6 py-24 font-sans">
+      <main className="max-w-3xl w-full space-y-24">
           
           <section
   className="space-y-10 text-center relative"
@@ -33,7 +33,6 @@ export default function BooksPage() {
         #1F1F1F 70%
       )
     `,
-    padding: "4rem 1.5rem",
   }}
 >
 
@@ -75,8 +74,6 @@ export default function BooksPage() {
     </a>
   </div>
 </section>
-
-
 
           {/* OTHER BOOKS SECTION */}
           <section className="space-y-10">
