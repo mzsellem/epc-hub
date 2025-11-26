@@ -21,7 +21,7 @@ export default function ContactPage() {
 
           {/* Divider */}
           <div className="flex justify-center">
-            <div className="w-20 h-1 bg-[#967000] rounded-full"></div>
+            <div className="w-24 h-0.5 bg-[#967000] rounded-full"></div>
           </div>
 
           {/* Email */}

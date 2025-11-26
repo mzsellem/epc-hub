@@ -10,7 +10,7 @@ export default function BooksPage() {
       <main className="max-w-3xl w-full space-y-24">
           
           <section
-  className="space-y-10 text-center relative"
+  className="text-center relative"
   style={{
     WebkitMaskImage: `
       radial-gradient(
@@ -36,7 +36,8 @@ export default function BooksPage() {
   }}
 >
 
-  <h1 className="text-4xl font-semibold header" style={{ color: "#FFFFFF" }}>Featuring</h1>
+  <h1 className="text-4xl font-semibold header mb-4" style={{ color: "#FFFFFF" }}>Featuring</h1>
+          <div className="w-1/3 h-0.5 bg-[#DDAD11] mb-10 rounded-full mx-auto"></div>
 
 
   {/* Featured Book Card */}
