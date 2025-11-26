@@ -58,7 +58,7 @@ export default function BooksPage() {
     <img 
       src="/the-new-alpha.png"
       alt="Featured Book"
-      className="w-64 md:w-72 rounded-lg shadow-xl"
+      className="w-64 rounded-lg shadow-xl"
     />
 
     <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
