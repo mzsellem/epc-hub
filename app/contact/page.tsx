@@ -14,14 +14,14 @@ export default function ContactPage() {
           </h1>
 
           {/* Description */}
-          <p className="text-lg leading-relaxed paragraph">
+          <p className="text-xl leading-relaxed paragraph">
             For speaking engagements, workshops, or other inquiries,<br />
             connect with us.
           </p>
 
           {/* Divider */}
           <div className="flex justify-center">
-            <div className="w-20 h-1 bg-[#DDAD11] rounded-full"></div>
+            <div className="w-20 h-1 bg-[#967000] rounded-full"></div>
           </div>
 
           {/* Email */}

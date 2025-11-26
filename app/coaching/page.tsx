@@ -11,7 +11,7 @@ export default function CoachingPage() {
         <main className="max-w-3xl w-full text-center space-y-12 text-white">
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl font-semibold">
+          <h1 className="text-4xl font-semibold">
             Unlock Your Potential
           </h1>
 
