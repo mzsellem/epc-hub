@@ -7,7 +7,7 @@ export default function BooksPage() {
       <Header />
 
      <div className="min-h-screen flex justify-center px-6 py-24 font-sans">
-      <main className="max-w-3xl w-full space-y-24">
+      <main className="max-w-4xl w-full space-y-24">
           
           <section
   className="text-center relative"

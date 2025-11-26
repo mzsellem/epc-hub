@@ -6,7 +6,7 @@ export default function AboutPage() {
     <>
       <Header />
       <div className="flex flex-col min-h-screen items-center justify-center px-6 py-24 font-sans">
-        <main className="max-w-3xl w-full flex flex-col space-y-16">
+        <main className="max-w-4xl w-full flex flex-col space-y-16">
           <h2 className="flex justify-center text-4xl font-semibold mb-4 header">
           About
           </h2>

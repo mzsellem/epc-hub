@@ -7,7 +7,7 @@ export default function ContactPage() {
       <Header />
 
       <div className="min-h-screen flex justify-center px-6 py-24 font-sans">
-        <main className="max-w-2xl w-full text-center space-y-12">
+        <main className="max-w-4xl w-full text-center space-y-12">
           {/* Title */}
           <h1 className="text-4xl font-semibold header">
             Your story deserves our attention.
