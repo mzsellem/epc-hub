@@ -67,10 +67,10 @@ export default function BooksPage() {
       area of life. A modern roadmap for ambitious families who want
       to grow without burning out.
     </p>
-
+    
     <a 
       href="#"
-      className="inline-block gold text-black px-8 py-3 rounded-md text-lg font-medium hover:opacity-90 transition"
+      className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
     >
       Buy
     </a>
@@ -99,7 +99,7 @@ export default function BooksPage() {
                 </p>
                 <a 
                   href="#"
-                  className="inline-block gold text-black px-6 py-2 rounded-md text-lg font-medium hover:opacity-90 transition"
+                  className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
                 >
                   Buy
                 </a>
@@ -119,7 +119,7 @@ export default function BooksPage() {
                 </p>
                 <a 
                   href="#"
-                  className="inline-block gold text-black px-6 py-2 rounded-md text-lg font-medium hover:opacity-90 transition"
+                  className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
                 >
                   Buy
                 </a>
