@@ -7,10 +7,10 @@ export default function Scheduling() {
       <Header />
 
       <div className="flex flex-col items-center px-6 py-24 font-sans" style={{ backgroundColor: '#1f1f1f' }}>
-        <main className="max-w-4xl w-full text-center space-y-12 text-white">
+        <main className="grow flex flex-col items-center justify-start px-6 py-12 w-full max-w-4xl space-y-6">
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl font-semibold">
+          <h1 className="text-4xl font-semibold">
             Schedule Your Session
           </h1>
 
