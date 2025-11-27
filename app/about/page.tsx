@@ -16,7 +16,7 @@ export default function AboutPage() {
           </h2>
 
           {/* Divider */}
-          <div className="w-1/3 h-0.5 bg-[#DDAD11] mb-10 rounded-full mx-auto"></div>
+          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto mb-10 rounded-full"></div>
 
           {/* Mission / Bio Section */}
           <section className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 w-full">
