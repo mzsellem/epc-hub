@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function Home() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   // Container for staggered animations
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: {},
     visible: {
       transition: {
@@ -16,19 +16,19 @@ export default function Home() {
     },
   };
 
-  const slowFadeVariants = {
+  const slowFadeVariants: Variants = {
     hidden: { opacity: 0, y: -10 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.8, ease: "easeOut" } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.8, ease:  [0.4, 0, 0.2, 1],  } }, // Preferred: cubic-bezier easing (type-safe)
   };
 
-  const fadeVariants = {
+  const fadeVariants: Variants = {
     hidden: { opacity: 0, y: -5 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } },
+    visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease:  [0.4, 0, 0.2, 1], } },
   };
 
-  const bgVariants = {
+  const bgVariants: Variants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 2.0, ease: "easeOut" } },
+    visible: { opacity: 1, transition: { duration: 2.0, ease:  [0.4, 0, 0.2, 1], } },
   };
 
   return (
