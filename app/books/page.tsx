@@ -69,7 +69,7 @@ export default function BooksPage() {
             </p>
 
             <a
-              href="#"
+              href="https://a.co/d/1SEiErQ"
               className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
             >
               Buy
