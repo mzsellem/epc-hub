@@ -53,7 +53,7 @@ export default function Header() {
 
         {/* FULL SCREEN MOBILE MENU */}
         <div
-          className={`md:hidden fixed inset-0 bg-black text-[#d4af37] flex flex-col items-center justify-center space-y-8 font-light transition-opacity duration-300 ${
+          className={`md:hidden fixed inset-0 bg-black text-[#d4af37] text-2xl flex flex-col items-center justify-center space-y-8 font-bold transition-opacity duration-300 ${
             open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
           }`}
         >
