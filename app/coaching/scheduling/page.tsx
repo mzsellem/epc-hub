@@ -6,7 +6,7 @@ export default function Scheduling() {
     <>
       <Header />
 
-      <div className="flex flex-col items-center px-6 py-24 font-sans" style={{ backgroundColor: '#1f1f1f' }}>
+      <div className="flex flex-col items-center px-6 font-sans" style={{ backgroundColor: '#1f1f1f' }}>
         <main className="grow flex flex-col items-center justify-start px-6 py-12 w-full max-w-4xl space-y-6">
 
           {/* Title */}
