@@ -24,11 +24,11 @@ export default function Header() {
   </a>
 
   {/* Desktop Nav */}
-  <nav className="hidden md:flex space-x-6 lg:space-x-10 text-sm sm:text-base md:text-lg font-light relative z-10">
-    <a href="/about" className="hover:underline underline-offset-4">About</a>
-    <a href="/books" className="hover:underline underline-offset-4">Books</a>
-    <a href="/coaching" className="hover:underline underline-offset-4">Coaching</a>
-    <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
+  <nav className="hidden md:flex space-x-6 lg:space-x-10 text-sm sm:text-base md:text-lg font-bold relative z-10">
+    <a href="/about" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">About</a>
+    <a href="/books" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Books</a>
+    <a href="/coaching" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Coaching</a>
+    <a href="/contact" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Contact</a>
   </nav>
 
   {/* Hamburger */}
@@ -53,14 +53,14 @@ export default function Header() {
 
         {/* FULL SCREEN MOBILE MENU */}
         <div
-          className={`md:hidden fixed inset-0 bg-black text-[#d4af37] flex flex-col items-center justify-center space-y-8 text-xl font-light transition-opacity duration-300 ${
+          className={`md:hidden fixed inset-0 bg-black text-[#d4af37] flex flex-col items-center justify-center space-y-8 font-light transition-opacity duration-300 ${
             open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
           }`}
         >
-          <a href="/about" onClick={() => setOpen(false)} className="hover:underline underline-offset-4">About</a>
-          <a href="/books" onClick={() => setOpen(false)} className="hover:underline underline-offset-4">Books</a>
-          <a href="/coaching" onClick={() => setOpen(false)} className="hover:underline underline-offset-4">Coaching</a>
-          <a href="/contact" onClick={() => setOpen(false)} className="hover:underline underline-offset-4">Contact</a>
+          <a href="/about" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]" >About</a>
+          <a href="/books" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Books</a>
+          <a href="/coaching" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Coaching</a>
+          <a href="/contact" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Contact</a>
         </div>
       </div>
     </header>
