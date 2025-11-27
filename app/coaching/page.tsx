@@ -11,14 +11,15 @@ export default function CoachingPage() {
         <h1 className="text-4xl font-semibold">
           Schedule A Session
         </h1>
-        {/* Divider */}
-        <div className="w-1/3 h-0.5 bg-[#DDAD11] rounded-full mx-auto"></div>
         
         {/* Description */}
         <p className="text-lg md:text-xl leading-relaxed opacity-90 p-2">
           Book a one-on-one coaching session designed to support executive parents in navigating leadership,
           career demands, and personal well-being with clarity and confidence.
         </p>
+
+ {/* Divider */}
+        <div className="w-24 h-0.5 bg-[#967000] rounded-full mx-auto"></div>
 
         {/* Button to scheduling page */}
         <Link href="/coaching/scheduling">
