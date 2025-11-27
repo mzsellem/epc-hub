@@ -36,9 +36,6 @@ export default function Home() {
       {/* Animated radial gradient background */}
       <motion.div
         className="absolute inset-0"
-        style={{
-          background: "radial-gradient(circle, rgba(221,173,17,0.05) 0%, #121212 100%)",
-        }}
         variants={bgVariants}
         initial="hidden"
         animate="visible"
