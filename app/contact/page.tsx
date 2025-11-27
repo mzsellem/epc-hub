@@ -27,7 +27,7 @@ export default function ContactPage() {
         {/* Email */}
         <a
           href="mailto:kenyada@executiveparentcompany.com"
-          className="text-xl font-medium tracking-wide transition hover:text-white hover:drop-shadow-[0_0_12px_rgba(221,173,17,0.55)]"
+          className="text-xl font-medium tracking-wide transition hover:text-white hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]"
         >
           kenyada@executiveparentcompany.com
         </a>
