@@ -6,18 +6,14 @@ export default function CoachingPage() {
   return (
     <div className="flex flex-col items-center min-h-screen font-sans bg-[#1f1f1f]">
       <Header />
-
       {/* Main Content */}
       <main className="grow flex flex-col items-center justify-center px-6 py-24 max-w-4xl w-full text-center space-y-6 text-white">
-        
-        {/* Title */}
         <h1 className="text-4xl font-semibold">
-          Unlock Your Potential
+          Schedule A Session
         </h1>
-
         {/* Divider */}
         <div className="w-1/3 h-0.5 bg-[#DDAD11] rounded-full mx-auto"></div>
-
+        
         {/* Description */}
         <p className="text-lg md:text-xl leading-relaxed opacity-90 p-2">
           Book a one-on-one coaching session designed to support executive parents in navigating leadership,
