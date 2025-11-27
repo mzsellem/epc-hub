@@ -1,31 +1,31 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Home() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   // Container for staggered animations
   const containerVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.8, // stagger between children
+        staggerChildren: 0.8,
       },
     },
   };
 
-  // Slow fade-in for logo
   const slowFadeVariants = {
     hidden: { opacity: 0, y: -10 },
     visible: { opacity: 1, y: 0, transition: { duration: 1.8, ease: "easeOut" } },
   };
 
-  // Slightly faster fade-in for title and nav
   const fadeVariants = {
     hidden: { opacity: 0, y: -5 },
     visible: { opacity: 1, y: 0, transition: { duration: 1.2, ease: "easeOut" } },
   };
 
-  // Animated background fade-in
   const bgVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 2.0, ease: "easeOut" } },
@@ -60,6 +60,7 @@ export default function Home() {
         <motion.div variants={fadeVariants}>
           <img src="/logo-title.png" alt="EPC Hub Text Logo" width={400} height={100} />
         </motion.div>
+
         {/* Navigation */}
         <motion.ul
           className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-bold text-[#DDAD11]"
@@ -70,22 +71,26 @@ export default function Home() {
             { href: "/books", label: "Books" },
             { href: "/coaching", label: "Coaching" },
             { href: "/contact", label: "Contact" },
-          ].map((link) => 
+          ].map((link, i) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="
+                onClick={() => setActiveIndex(i)} // tap/click glow for tablet + mobile
+                className={`
                   relative px-2 transition-all duration-300
                   before:absolute before:inset-0 before:rounded-full
-                  before:bg-[#DDAD11] before:opacity-0 before:blur-xl
+                  before:bg-[#DDAD11] before:blur-xl
                   before:transition-opacity before:duration-300
-                  lg:hover:before:opacity-60   /* spotlight only on desktop */
-                "
+                  
+                  ${activeIndex === i ? "before:opacity-60" : "before:opacity-0"}
+
+                  lg:hover:before:opacity-30  /* desktop hover */
+                `}
               >
                 {link.label}
               </a>
             </li>
-          )}
+          ))}
         </motion.ul>
       </motion.main>
     </div>
