@@ -35,11 +35,12 @@ export default function Home() {
     <div className="relative min-h-screen flex items-center justify-center font-sans px-6 sm:px-8 md:px-12">
       {/* Animated radial gradient background */}
       <motion.div
-        className="absolute inset-0"
+        className="absolute inset-0 bg-[#121212]"
         variants={bgVariants}
         initial="hidden"
         animate="visible"
       />
+
 
       {/* Main content */}
       <motion.main
