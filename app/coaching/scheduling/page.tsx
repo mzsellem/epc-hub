@@ -20,20 +20,20 @@ export default function Scheduling() {
           </div>
 
           {/* Calendly Embed */}
-          <div className="mt-10 w-full p-6 md:p-10 rounded-xl shadow-lg relative"
-               style={{ 
-                 background: 'radial-gradient(circle at center, rgba(255,255,255,0.05) 0%, #1f1f1f 90%)',
-                 border: '1px solid rgba(255,255,255,0.1)'
-               }}>
+
+          <div
+            className="w-full p-6 md:p-10 rounded-xl shadow-lg relative"
+            style={{
+              backgroundColor: '#1f1f1f', 
+            }}
+          >
             <iframe
               src="https://calendly.com/YOUR_CALENDLY_USERNAME?hide_event_type_details=1&hide_gdpr_banner=1"
               className="w-full h-[700px] md:h-[800px] rounded-lg"
             ></iframe>
           </div>
-
         </main>
       </div>
-
       <Footer />
     </>
   );
