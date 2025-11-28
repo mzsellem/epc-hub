@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [activeMobileIndex, setActiveMobileIndex] = useState<number | null>(null);
 
   return (
     <header className="w-full sticky top-0 z-50">
@@ -57,10 +58,73 @@ export default function Header() {
             open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
           }`}
         >
-          <a href="/about" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]" >About</a>
-          <a href="/books" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Books</a>
-          <a href="/coaching" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Coaching</a>
-          <a href="/contact" onClick={() => setOpen(false)} className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Contact</a>
+          <a
+            href="/about"
+            onClick={() => {
+              setActiveMobileIndex(0);
+              setOpen(false);
+            }}
+            className={`
+              relative px-2 transition-all duration-300
+              before:absolute before:inset-0 before:rounded-full
+              before:bg-[#DDAD11] before:blur-xl
+              before:transition-opacity before:duration-300
+              ${activeMobileIndex === 0 ? "before:opacity-60" : "before:opacity-0"}
+            `}
+          >
+            About
+          </a>
+          <a
+            href="/books"
+            onClick={() => {
+              setActiveMobileIndex(1);
+              setOpen(false);
+            }}
+            className={`
+              relative px-2 transition-all duration-300
+              before:absolute before:inset-0 before:rounded-full
+              before:bg-[#DDAD11] before:blur-xl
+              before:transition-opacity before:duration-300
+              ${activeMobileIndex === 1 ? "before:opacity-60" : "before:opacity-0"}
+            `}
+          >
+            Books
+          </a>
+
+          <a
+            href="/coaching"
+            onClick={() => {
+              setActiveMobileIndex(2);
+              setOpen(false);
+            }}
+            className={`
+              relative px-2 transition-all duration-300
+              before:absolute before:inset-0 before:rounded-full
+              before:bg-[#DDAD11] before:blur-xl
+              before:transition-opacity before:duration-300
+              ${activeMobileIndex === 2 ? "before:opacity-60" : "before:opacity-0"}
+            `}
+          >
+            Coaching
+          </a>
+
+          <a
+            href="/contact"
+            onClick={() => {
+              setActiveMobileIndex(3);
+              setOpen(false);
+            }}
+            className={`
+              relative px-2 transition-all duration-300
+              before:absolute before:inset-0 before:rounded-full
+              before:bg-[#DDAD11] before:blur-xl
+              before:transition-opacity before:duration-300
+              ${activeMobileIndex === 3 ? "before:opacity-60" : "before:opacity-0"}
+            `}
+          >
+            Contact
+          </a>
+
         </div>
       </div>
     </header>
