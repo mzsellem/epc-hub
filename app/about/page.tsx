@@ -24,7 +24,7 @@ export default function AboutPage() {
   <img
     src="/kenyada.png"
     alt="Kenyada"
-    className="w-full sm:w-4/5 md:w-2/5 lg:w-2/5 rounded-lg shadow-lg object-cover"
+    className="w-1/2 rounded-lg shadow-lg object-cover"
   />
 
   {/* Text */}
