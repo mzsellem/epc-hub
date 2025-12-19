@@ -40,10 +40,11 @@ export default function AboutPage() {
     <p className="text-lg leading-relaxed paragraph">
       Kenyada is a global finance executive, governance expert, and board member focused on organizations that deeply enhance the human experience through education and wellness.
     </p>
-    
+
     <p className="text-lg leading-relaxed paragraph">
-      Kenyada is a global finance executive, governance expert, and board member focused on organizations that deeply enhance the human experience through education and wellness. More of a sentence here to fill up sapce and time and make the layout work.
+      Kenyada’s coaching is distinguished by the way he fuses governance discipline and leadership principles with human insight. He helps leaders translate complex issues into clear, confident action while strengthening the emotional skills that sustain long-term influence.
     </p>
+  
   </div>
 </section>
 
