@@ -19,7 +19,7 @@ export default function BooksPage() {
           <h1 className="text-4xl font-semibold header mb-4 text-white">
             Featuring
           </h1>
-          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto mb-10 rounded-full"></div>
+          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
 
           {/* Featured Book Card */}
           <div
