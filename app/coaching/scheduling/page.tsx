@@ -1,40 +1,55 @@
-import Header from '../../Components/header/page';
-import Footer from '../../Components/footer/page';
+'use client'
+
+import { useEffect } from 'react'
+import Script from 'next/script'
+import Header from '../../Components/header/page'
+import Footer from '../../Components/footer/page'
+import { InlineWidget } from 'react-calendly'
+
+const calendlyUrl =
+  'https://calendly.com/kenyadameadows/30min' +
+  '?background_color=1f1f1f' +
+  '&text_color=e5e7eb' +
+  '&primary_color=ddad11'
 
 export default function Scheduling() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).Calendly) {
+      ;(window as any).Calendly.initBadgeWidget({
+        url: calendlyUrl,
+        text: 'Book a session',
+        color: '#181818',
+        textColor: '#f9fafb',
+        branding: false,
+      })
+    }
+  }, [])
+
   return (
     <>
       <Header />
 
-      <div className="flex flex-col items-center px-6 font-sans" style={{ backgroundColor: '#1f1f1f' }}>
-        <main className="grow flex flex-col items-center justify-start px-6 py-12 w-full max-w-4xl space-y-6">
+      {/* Calendly styles */}
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
 
-          {/* Title */}
-          <h1 className="text-4xl font-semibold">
-            Schedule Your Session
-          </h1>
+      {/* Calendly script */}
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="afterInteractive"
+      />
 
-          {/* Divider */}
-          <div className="flex justify-center">
-            <div className="w-24 h-0.5 bg-[#DDAD11] rounded-full"></div>
-          </div>
-
-          {/* Calendly Embed */}
-
-          <div
-            className="w-full p-6 md:p-10 rounded-xl shadow-lg relative"
-            style={{
-              backgroundColor: '#1f1f1f', 
-            }}
-          >
-            <iframe
-              src="https://calendly.com/YOUR_CALENDLY_USERNAME?hide_event_type_details=1&hide_gdpr_banner=1"
-              className="w-full h-[700px] md:h-[800px] rounded-lg"
-            ></iframe>
-          </div>
-        </main>
+      {/* Calendly only */}
+      <div className="w-full bg-[#1f1f1f]">
+        <InlineWidget
+          url={calendlyUrl}
+          styles={{ height: '100vh' }}
+        />
       </div>
+
       <Footer />
     </>
-  );
+  )
 }
