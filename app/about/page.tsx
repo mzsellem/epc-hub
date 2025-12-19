@@ -42,7 +42,7 @@ export default function AboutPage() {
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
-      Kenyada’s coaching is distinguished by the way he fuses governance discipline and leadership principles with human insight. He helps leaders translate complex issues into clear, confident action while strengthening the emotional skills that sustain long-term influence.
+      Kenyada&apos;s coaching is distinguished by the way he fuses governance discipline and leadership principles with human insight. He helps leaders translate complex issues into clear, confident action while strengthening the emotional skills that sustain long-term influence.
     </p>
   
   </div>
