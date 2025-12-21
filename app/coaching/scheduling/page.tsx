@@ -7,7 +7,7 @@ import Footer from '../../Components/footer/page'
 import { InlineWidget } from 'react-calendly'
 
 const calendlyUrl =
-  'https://calendly.com/kenyadameadows/30min' +
+  'https://calendly.com/kenyadameadows' +
   '?background_color=1f1f1f' +
   '&text_color=e5e7eb' +
   '&primary_color=ddad11'
