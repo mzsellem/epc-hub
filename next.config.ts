@@ -7,8 +7,8 @@ const calendlyCSP = `
   style-src 'self' 'unsafe-inline';
   img-src 'self' data: https:;
   font-src 'self' https:;
-  frame-src https://calendly.com https://*.calendly.com;
-  connect-src 'self' https://calendly.com https://*.calendly.com;
+  frame-src https://calendly.com https://*.calendly.com https://assets.calendly.com;
+  connect-src https://calendly.com https://*.calendly.com https://assets.calendly.com;
 `
 
 const nextConfig: NextConfig = {
@@ -39,7 +39,8 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=()',
+            // Allow payments for Stripe + Calendly
+            value: 'camera=(), microphone=(), geolocation=(), payment=()',
           },
         ],
       },
