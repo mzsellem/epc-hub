@@ -5,7 +5,7 @@ export default function Footer() {
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-linear-to-t from- #757575 to-[#1f1f1f] pointer-events-none"></div>
 
-      <div className="relative layout-width max-w-6xl flex flex-col items-center space-y-4 py-8 px-4 sm:px-6 md:px-6 text-[#d4af37]">
+      <div className="relative layout-width flex flex-col items-center space-y-4 py-8 px-4 sm:px-6 md:px-6 text-[#d4af37]">
         {/* Text Row */}
         <div className="text-sm sm:text-base text-center">
           © 2025 Executive Parent Company. All rights reserved.
