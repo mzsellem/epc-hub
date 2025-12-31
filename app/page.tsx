@@ -61,7 +61,7 @@ export default function Home() {
 
         {/* Navigation */}
         <motion.ul
-          className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg md:text-xl font-bold text-[#DDAD11]"
+          className="flex flex-wrap justify-center sm:gap-10 text-lg md:text-xl font-bold text-[#DDAD11]"
           variants={fadeVariants}
         >
           {[
