@@ -27,7 +27,15 @@ export default function ContactPage() {
         {/* Email */}
         <a
           href="mailto:kenyada@executiveparentcompany.com"
-          className="text-xl font-medium tracking-wide transition hover:text-white hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]"
+          className="
+  inline-block
+  max-w-full
+  px-4 sm:px-6
+  py-2
+  text-center
+  break-all
+"
+
         >
           kenyada@executiveparentcompany.com
         </a>
