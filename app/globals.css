@@ -50,14 +50,13 @@ body {
 }
 
 /* UNIVERSAL LAYOUT WRAPPER (aligns header + page content) */
+/* layout-width: width ONLY */
 .layout-width {
   width: 100%;
-  max-width: 52rem; /* adjust to your preference */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: 52rem;
+  margin-inline: auto;
 }
+
 
 /* Reduce padding for mobile */
 @media (min-width: 640px) {

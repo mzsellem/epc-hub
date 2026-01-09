@@ -73,7 +73,9 @@ export default function AboutPage() {
         </div>
       </main>
 
-      <Footer />
+      <div className=''>
+        <Footer />
+      </div>
     </div>
   );
 }
