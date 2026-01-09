@@ -27,7 +27,7 @@ export default function Header() {
   {/* Desktop Nav */}
   <nav className="hidden md:flex space-x-6 lg:space-x-10 text-sm sm:text-base md:text-lg font-bold relative z-10">
     <a href="/about" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">About</a>
-    <a href="/books" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Books</a>
+    <a href="/books" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Book</a>
     <a href="/coaching" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Coaching</a>
     <a href="/contact" className="tracking-wide transition hover:drop-shadow-[0_0_12px_rgba(221,173,17,1.0)]">Contact</a>
   </nav>
@@ -88,7 +88,7 @@ export default function Header() {
               ${activeMobileIndex === 1 ? "before:opacity-60" : "before:opacity-0"}
             `}
           >
-            Books
+            Book
           </a>
 
           <a
