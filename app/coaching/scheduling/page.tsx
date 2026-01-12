@@ -2,12 +2,7 @@
 
 import Header from '../../Components/header/page'
 import Footer from '../../Components/footer/page'
-import { InlineWidget } from 'react-calendly'
-
-// ✅ Use the InlineWidget URL (not root Calendly page)
-const calendlyUrl =
-  'https://calendly.com/kenyadameadows?embed_domain=yourdomain.com&embed_type=Inline' +
-  '&background_color=1f1f1f&text_color=e5e7eb&primary_color=ddad11'
+import Script from 'next/script'
 
 export default function Scheduling() {
   return (
@@ -15,13 +10,19 @@ export default function Scheduling() {
       <Header />
 
       <main className="w-full bg-[#1f1f1f] min-h-screen">
-        <InlineWidget
-          url={calendlyUrl}
-          styles={{ height: '100vh' }}
+        <div
+          className="calendly-inline-widget"
+          data-url="https://calendly.com/kenyadameadows?background_color=1f1f1f&text_color=e5e7eb&primary_color=ddad11"
+          style={{ minWidth: '320px', height: '100vh' }}
         />
       </main>
 
       <Footer />
+
+      <Script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        strategy="lazyOnload"
+      />
     </div>
   )
 }
