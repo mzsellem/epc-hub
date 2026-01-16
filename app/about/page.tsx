@@ -29,29 +29,61 @@ export default function AboutPage() {
 
   {/* Text */}
   <div className="flex flex-col space-y-4 text-center md:text-left md:w-3/5 lg:w-3/5">
+    {/* <header className='text-xl'>Who is the Founder and What is The Executive Parent Company?</header> */}
     <p className="text-lg leading-relaxed paragraph">
-      <span className="font-extrabold">Kenyada Meadows</span> is the founder of The Executive Parent Company, an ecosystem devoted to helping high-performing professionals rebalance their lives and lead with vulnerability to unleash true power and lasting influence.
+      <span className="font-extrabold">Kenyada Meadows</span> is the founder of The Executive Parent Company, an ecosystem devoted to helping high-performing professionals rebalance their lives and lead with vulnerability to unlock durable power and lasting influence.
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
-      Kenyada developed The New Alpha framework to help leaders redefine strength and success through emotional intelligence, humility, and balance across three domains — their relationships at work, home, and with themselves.
+      He developed The Balanced Leadership and Legacy framework to help individuals redefine strength and success through emotional intelligence, humility, and balance across three domains: work, home, and self.
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
-      Kenyada is a global finance executive, governance expert, and board member focused on organizations that deeply enhance the human experience through education and wellness.
+      Kenyada is a global finance executive, governance expert, and board member focused on organizations that meaningfully enhance the human experience through education and wellness.
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
-      Kenyada&apos;s coaching is distinguished by the way he fuses governance discipline and leadership principles with human insight. He helps leaders translate complex issues into clear, confident action while strengthening the emotional skills that sustain long-term influence.
+      His coaching is distinguished by the way it fuses governance discipline and leadership principles with deep human insight - helping leaders translate complexity into clear, confident action.
     </p>
-  
   </div>
+
 </section>
 
+        </div>
 
+        <section className="w-full flex flex-col items-center text-center space-y-6 py-8 mt-">
+          <h1 className="text-4xl md:text-3xl font-semibold header">
+            Why The Executive Parent Company Exists
+          </h1>
+        </section>
 
-          {/* Call-to-action Section */}
-          <section className="relative w-full py-24 header bg-[#1f1f1f]">
+        <div className="flex flex-col space-y-4 text-center md:w-3/5 lg:w-3/5">
+          <p className="text-lg leading-relaxed paragraph">
+            Despite decades in leadership roles at some of the most recognized and respected companies in the world, I always maintained a separation between these professional associations and my personal identity. I recognized that even the most senior and tenured leaders often have little lasting control over the companies—and reputations—in which they conveniently choose, or sometimes find it necessary, to cloak themselves.
+          </p>
+
+          <p className="text-lg leading-relaxed paragraph">
+            This too-common default of assuming a ready-made corporate identity as a source of real personal value and belonging continues to leave individuals unfulfilled and, ironically, more vulnerable—seeking validation from equally misguided people while steadily compromising personal boundaries, integrity, and the most critical relationships along the way.
+          </p>
+
+          <p className="text-lg leading-relaxed paragraph">
+            The result is that countless millions of people, their families, and the organizations they comprise are rendered weaker and less cohesive than they often claim or appear to be. What it means to be a leader within this self-referential and reliant Ponzi scheme becomes less about protecting personal principles and more about navigating professional politics. The irony—and the error—are clear, yet the downward spiral remains largely unaddressed.
+          </p>
+
+          <p className="text-lg leading-relaxed paragraph">
+            Just as an illness cannot generate its own cure, focus on a single leadership domain cannot resolve the atrophy in life that it causes. Becoming more integrated, balanced, and resilient leaders requires support across multiple domains—arguably the least important of which is what we do for work.
+          </p>
+
+          <p className="text-lg leading-relaxed paragraph">
+            The Executive Parent Company is committed to the simple idea that there are better ways to live and lead—that winning at work should not mean losing at life.
+          </p>
+        </div>
+
+        {/* Divider */}
+          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#a9801a] mx-auto m-10 rounded-full"></div>
+
+         {/* Call-to-action Section */}
+          <section className="relative w-full py-12 header bg-[#1f1f1f]">
             <div
               className="absolute inset-0"
               style={{
@@ -60,7 +92,7 @@ export default function AboutPage() {
             />
             <div className="relative w-full max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
               <h1 className="text-2xl md:text-3xl font-semibold">
-                Transform your mindset — one chapter at a time.
+                Work With Kenyada
               </h1>
               <a
                 href="/books"
@@ -70,10 +102,9 @@ export default function AboutPage() {
               </a>
             </div>
           </section>
-        </div>
       </main>
 
-      <div className=''>
+      <div>
         <Footer />
       </div>
     </div>
