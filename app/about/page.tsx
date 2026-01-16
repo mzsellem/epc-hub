@@ -35,7 +35,7 @@ export default function AboutPage() {
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
-      He developed The Balanced Leadership and Legacy framework to help individuals redefine strength and success through emotional intelligence, humility, and balance across three domains: work, home, and self.
+      He developed The Balanced Leadership and Legacy framework to help individuals redefine strength and success through emotional intelligence, humility, and balance across three domains: work, home, and self. The three domains or “pillars” are explored in depth in his book, “The New Alpha”. 
     </p>
 
     <p className="text-lg leading-relaxed paragraph">
