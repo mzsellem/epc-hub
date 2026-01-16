@@ -35,10 +35,17 @@ export default function BooksPage() {
             />
 
             <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
-              This powerful guide helps executive parents reclaim balance,
-              strengthen leadership at home, and thrive with intention in every
-              area of life. A modern roadmap for ambitious families who want
-              to grow without burning out.
+             This guide helps ambitious individuals challenge narrow definitions of 
+             success, and offers a practical approach to living and leading with 
+             balance across the three domains – the relationships at work, home, 
+             and with oneself.
+            </p>
+
+            <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
+              Grounded in the Balanced Leadership and Legacy framework, The 
+              New Alpha serves as a modern roadmap for individuals, families, 
+              and organizations determined to thrive in a meaningful, comprehensive, 
+              and sustainable way.
             </p>
 
             <a
