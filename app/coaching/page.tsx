@@ -113,7 +113,7 @@ export default function CoachingPage() {
               }}
             />
             <div className="relative w-full max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
-              <h1 className="text-2xl md:text-xl font-semibold">
+              <h1 className="text-xl font-semibold">
                 “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
                 <p className='mt-5'>- Abraham Maslow</p>
               </h1>
