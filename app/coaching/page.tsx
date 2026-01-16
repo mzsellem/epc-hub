@@ -1,5 +1,6 @@
 import Header from '../Components/header/page';
 import Footer from '../Components/footer/page';
+import Link from 'next/link';
 
 
 export default function CoachingPage() {
@@ -16,13 +17,6 @@ export default function CoachingPage() {
 
         {/* Divider */}
         <div className="w-24 h-0.5 bg-[#967000] rounded-full mx-auto"></div>
-
-        {/* Button */}
-        {/* <Link href="/coaching/scheduling">
-          <button className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out">
-            Schedule
-          </button>
-        </Link> */}
 
         {/* Sections */}
         <section className="w-full space-y-16 pt-20">
@@ -123,12 +117,12 @@ export default function CoachingPage() {
                 “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
                 <p className='mt-5'>- Abraham Maslow</p>
               </h1>
-              <a
-                href="/coaching/scheduling"
-                className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
-              >
-                Schedule
-              </a>
+              {/* Button */}
+              <Link href="/coaching/scheduling">
+                <button className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out">
+                  Schedule
+                </button>
+              </Link>
             </div>
           </section>
       </main>
