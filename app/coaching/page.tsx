@@ -45,9 +45,9 @@ export default function CoachingPage() {
               <li>• Governing Board and Committee Member</li>
               <li>• University Lecturer</li>
               <li>• Published Author</li>
-              <li>• Multicultural and Multilingual with Global Exposure</li>
+              <li>• Multicultural and Multilingual</li>
               <li>• Whole-life Leader and Balanced Legacy Builder</li>
-              <li>• Values Driven and People-Centere</li>
+              <li>• Values Driven and People-Centered</li>
             </ul>
           </div>
 
@@ -98,7 +98,7 @@ export default function CoachingPage() {
             <ul className="space-y-2 opacity-80 mb-8">
               <li>• Diagnostic and Readiness Assessment for Balanced Leadership and Legacy - $1,875</li>
             </ul>
-            <p className="text-base md:text-lg opacity-85 font-extrabold">Custom engagements including joint or team sessions available upon request</p>
+            <p className="text-base md:text-lg opacity-85 font-extrabold">Custom engagements including joint or team sessions available upon request.</p>
             {/* Divider */}
             <div className="w-24 h-0.5 bg-[#967000] rounded-full mx-auto mt-10"></div>
           </div>
@@ -113,7 +113,7 @@ export default function CoachingPage() {
               }}
             />
             <div className="relative w-full max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
-              <h1 className="text-2xl md:text-3xl font-semibold">
+              <h1 className="text-2xl md:text-xl font-semibold">
                 “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
                 <p className='mt-5'>- Abraham Maslow</p>
               </h1>
