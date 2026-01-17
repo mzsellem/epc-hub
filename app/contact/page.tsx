@@ -11,18 +11,16 @@ export default function ContactPage() {
       <main className="grow flex flex-col items-center justify-center px-6 py-24 max-w-4xl w-full text-center space-y-6">
         
         {/* Title */}
-        <h1 className="text-4xl font-semibold header">
-          Your story deserves our attention.
+        <h1 className="text-2xl font-semibold header">
+        For speaking engagements, workshops, or other inquiries,<br />
+          connect with us.
         </h1>
 
         {/* Description */}
-        <p className="text-xl leading-relaxed paragraph">
+        {/* <p className="text-xl leading-relaxed paragraph">
           For speaking engagements, workshops, or other inquiries,<br />
           connect with us.
-        </p>
-
-        {/* Divider */}
-        <div className="w-24 h-0.5 bg-[#967000] rounded-full mx-auto"></div>
+        </p> */}
 
         {/* Email */}
         <a
@@ -39,6 +37,10 @@ export default function ContactPage() {
         >
           kenyada@executiveparentcompany.com
         </a>
+
+
+        {/* Divider */}
+        <div className="w-24 h-0.5 bg-[#967000] rounded-full mx-auto"></div>
       </main>
 
       {/* Footer */}
