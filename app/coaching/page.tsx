@@ -31,22 +31,21 @@ export default function CoachingPage() {
                 Executive Coaching for Balanced Leadership & Legacy
               </h2>
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
-                This coaching system develops sustainable excellence across three core domains,
-                ensuring alignment between ambition, responsibility, and personal vitality.
+                This unique coaching system develops sustainable excellence and integrated leadership across the three domains – relationships at work, home, and with oneself. Examples of coaching outcomes that align and accentuate whole-life goals include:
               </p>
               <ul className="space-y-3 pl-5 list-disc opacity-80">
                 <li>Work: Reputation optimization, relationship management, boundary setting</li>
-                <li>Home: Multidirectional communication, listening mastery, success metrics</li>
-                <li>Self: Values alignment, emotional intelligence, vitality and resilience</li>
+                <li>Home: Home: Multidirectional communication, enhanced listening, formal success measures</li>
+                <li>Self: Values identification and alignment, emotional awareness, improved vitality</li>
               </ul>
             </div>
 
           <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
               <h2 className="text-2xl font-semibold">
-                Professional & Personal Qualifications
+                Professional & Personal Coaching Qualifications
               </h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8 pl-5 list-disc opacity-80">
-                <li>Wall Street Executive (Big Four & Cross-Industry)</li>
+                <li>Wall Street Executive with Big Four & Cross-Industry Strategic Experience</li>
                 <li>Certified Executive Coach</li>
                 <li>Qualified Financial Expert</li>
                 <li>Harvard Business School Alumnus</li>
@@ -54,7 +53,8 @@ export default function CoachingPage() {
                 <li>University Lecturer</li>
                 <li>Published Author</li>
                 <li>Multicultural & Multilingual</li>
-                <li>Values-Driven, People-Centered Leader</li>
+                <li>Whole-life Leader and Balanced Legacy Builder</li>
+                <li>Values Driven and People-Centered</li>
               </ul>
             </div>
 
@@ -63,9 +63,9 @@ export default function CoachingPage() {
                 Client Commitment
               </h2>
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
-                <li>Develop integrated excellence across all life domains</li>
-                <li>Identify and close leadership gaps sustainably</li>
-                <li>Model self-awareness, challenge, and growth for others</li>
+                <li>Develop integrated excellence across the three domains</li>
+                <li>Diligently identify and remediate gaps sustainably</li>
+                <li>Model self-awareness, critical challenge, and ongoing development of others</li>
               </ul>
             </div>
 
@@ -74,21 +74,22 @@ export default function CoachingPage() {
                 Return on Investment
               </h2>
               <p className="text-base md:text-lg opacity-85">
-                Each coaching module includes:
+                Each Coaching Module Includes:
               </p>
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
                 <li>Five (5) intensive hour-long executive coaching sessions</li>
-                <li>Whole-life goal setting and success metrics</li>
-                <li>Skills integration across work, home, and self</li>
+                <li>Whole-life goal setting</li>
+                <li>Success metrics setup and monitoring</li>
+                <li>Skills optimization and integration across domains</li>
                 <li>Personal Sustainability Assessment</li>
                 <li>Email and text support between sessions</li>
               </ul>
 
               <p className="text-base md:text-lg opacity-85 pt-4">
-                Add-ons available after two modules:
+                Add-ons available after two (2) modules:
               </p>
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
-                <li>Full-day strategy session (virtual or in-person)</li>
+                <li>Full-day strategy session and workshop (virtual or in-person)</li>
                 <li>Eligible family member or business partner sessions</li>
               </ul>
             </div>
@@ -98,12 +99,14 @@ export default function CoachingPage() {
                 Investment in Leadership & Legacy
               </h2>
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
-                Your commitment is measured not by effort alone, but by whole-life outcomes
-                and the legacy you leave behind.
+                Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:
               </p>
               <ul className="space-y-3 pl-5 list-disc opacity-80">
                 <li>10-week Balanced Leadership & Legacy Intensive — $8,500</li>
-                <li>Diagnostic & Readiness Assessment — $1,875</li>
+              </ul>
+              <p>Entry Option:</p>
+              <ul className="space-y-3 pl-5 list-disc opacity-80">
+                <li>Diagnostic and Readiness Assessment for Balanced Leadership and Legacy - $1,875</li>
               </ul>
               <p className="text-base md:text-lg font-semibold opacity-90 pt-4">
                 Custom engagements available upon request.
