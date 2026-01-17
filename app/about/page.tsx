@@ -8,7 +8,7 @@ export default function AboutPage() {
 
       {/* Main content */}
       <main className="grow flex flex-col items-center px-6 py-12 w-full">
-        <div className="max-w-4xl w-full flex flex-col space-y-20">
+        <div className="max-w-4xl w-full flex flex-col space-y-10">
           
           {/* Page Title */}
           <h2 className="text-4xl font-semibold mb-4 header text-center">
@@ -16,7 +16,9 @@ export default function AboutPage() {
           </h2>
 
           {/* Divider */}
-          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#341900] mx-auto mb-10 rounded-full"></div>
+          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto mb-10 rounded-full"></div>
+
+          <header className='text-2xl font-bold'>I. Who is the Founder and What is The Executive Parent Company?</header>
 
           {/* Mission / Bio Section */}
           <section className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12 w-full">
@@ -29,7 +31,6 @@ export default function AboutPage() {
 
   {/* Text */}
   <div className="flex flex-col space-y-4 text-center md:text-left md:w-3/5 lg:w-3/5">
-    {/* <header className='text-xl'>Who is the Founder and What is The Executive Parent Company?</header> */}
     <p className="text-lg leading-relaxed paragraph">
       <span className="font-extrabold">Kenyada Meadows</span> is the founder of The Executive Parent Company, an ecosystem devoted to helping high-performing professionals rebalance their lives and lead with vulnerability to unlock durable power and lasting influence.
     </p>
@@ -51,33 +52,58 @@ export default function AboutPage() {
 
         </div>
 
-        <section className="w-full flex flex-col items-center text-center space-y-6 py-8 mt-">
-          <h1 className="text-4xl md:text-3xl font-semibold header">
-            Why The Executive Parent Company Exists
-          </h1>
-        </section>
+        {/* Section II */}
+<section className="w-full max-w-4xl mx-auto flex flex-col space-y-6">
 
-        <div className="flex flex-col space-y-4 text-center md:w-3/5 lg:w-3/5">
-          <p className="text-lg leading-relaxed paragraph">
-            Despite decades in leadership roles at some of the most recognized and respected companies in the world, I always maintained a separation between these professional associations and my personal identity. I recognized that even the most senior and tenured leaders often have little lasting control over the companies — and reputations — in which they conveniently choose, or sometimes find it necessary, to cloak themselves.
-          </p>
+    <header className='text-2xl font-bold mt-10'>II. Why The Executive Parent Company Exists</header>
 
-          <p className="text-lg leading-relaxed paragraph">
-            This too-common default of assuming a ready-made corporate identity as a source of real personal value and belonging continues to leave individuals unfulfilled and, ironically, more vulnerable—seeking validation from equally misguided people while steadily compromising personal boundaries, integrity, and the most critical relationships along the way.
-          </p>
+  {/* Two-Column Content */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+    {/* Column One */}
+    <div className="space-y-4">
+      <p className="text-lg leading-relaxed paragraph">
+        Despite decades in leadership roles at some of the most recognized and
+        respected companies in the world, I always maintained a separation
+        between these professional associations and my personal identity.
+      </p>
 
-          <p className="text-lg leading-relaxed paragraph">
-            The result is that countless millions of people, their families, and the organizations they comprise are rendered weaker and less cohesive than they often claim or appear to be. What it means to be a leader within this self-referential and reliant Ponzi scheme becomes less about protecting personal principles and more about navigating professional politics. The irony — and the error—are clear, yet the downward spiral remains largely unaddressed.
-          </p>
+      <p className="text-lg leading-relaxed paragraph">
+        I recognized that even the most senior leaders often have little lasting
+        control over the companies — and reputations — in which they cloak
+        themselves, mistaking proximity for purpose.
+      </p>
 
-          <p className="text-lg leading-relaxed paragraph">
-            Just as an illness cannot generate its own cure, focus on a single leadership domain cannot resolve the atrophy in life that it causes. Becoming more integrated, balanced, and resilient leaders requires support across multiple domains — arguably the least important of which is what we do for work.
-          </p>
+      <p className="text-lg leading-relaxed paragraph">
+        This default of adopting a ready-made corporate identity continues to
+        leave individuals unfulfilled and increasingly vulnerable, seeking
+        validation while compromising personal boundaries and integrity.
+      </p>
+    </div>
 
-          <p className="text-lg leading-relaxed paragraph">
-            The Executive Parent Company is committed to the simple idea that there are better ways to live and lead — that winning at work should not mean losing at life.
-          </p>
-        </div>
+    {/* Column Two */}
+    <div className="space-y-4">
+      <p className="text-lg leading-relaxed paragraph">
+        The result is that millions of people, their families, and the
+        organizations they comprise are rendered weaker and less cohesive than
+        they appear. Leadership becomes less about principle and more about
+        navigation.
+      </p>
+
+      <p className="text-lg leading-relaxed paragraph">
+        Just as an illness cannot generate its own cure, focus on a single
+        leadership domain cannot resolve the atrophy it causes elsewhere.
+        Integration across life domains is essential.
+      </p>
+
+      <p className="text-lg leading-relaxed paragraph">
+        The Executive Parent Company exists to advance a simple truth: winning
+        at work should not mean losing at life.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 
         {/* Divider */}
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#a9801a] mx-auto m-10 rounded-full"></div>
