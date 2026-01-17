@@ -26,14 +26,13 @@ export default function ContactPage() {
         <a
           href="mailto:kenyada@executiveparentcompany.com"
           className="
-  inline-block
-  max-w-full
-  px-4 sm:px-6
-  py-2
-  text-center
-  break-all
-"
-
+          inline-block
+          max-w-full
+          px-4 sm:px-6
+          py-2
+          text-center
+          break-all
+          "
         >
           kenyada@executiveparentcompany.com
         </a>
