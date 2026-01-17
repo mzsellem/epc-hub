@@ -59,7 +59,7 @@ export default function AboutPage() {
 
         <div className="flex flex-col space-y-4 text-center md:w-3/5 lg:w-3/5">
           <p className="text-lg leading-relaxed paragraph">
-            Despite decades in leadership roles at some of the most recognized and respected companies in the world, I always maintained a separation between these professional associations and my personal identity. I recognized that even the most senior and tenured leaders often have little lasting control over the companies—and reputations—in which they conveniently choose, or sometimes find it necessary, to cloak themselves.
+            Despite decades in leadership roles at some of the most recognized and respected companies in the world, I always maintained a separation between these professional associations and my personal identity. I recognized that even the most senior and tenured leaders often have little lasting control over the companies — and reputations — in which they conveniently choose, or sometimes find it necessary, to cloak themselves.
           </p>
 
           <p className="text-lg leading-relaxed paragraph">
@@ -67,15 +67,15 @@ export default function AboutPage() {
           </p>
 
           <p className="text-lg leading-relaxed paragraph">
-            The result is that countless millions of people, their families, and the organizations they comprise are rendered weaker and less cohesive than they often claim or appear to be. What it means to be a leader within this self-referential and reliant Ponzi scheme becomes less about protecting personal principles and more about navigating professional politics. The irony—and the error—are clear, yet the downward spiral remains largely unaddressed.
+            The result is that countless millions of people, their families, and the organizations they comprise are rendered weaker and less cohesive than they often claim or appear to be. What it means to be a leader within this self-referential and reliant Ponzi scheme becomes less about protecting personal principles and more about navigating professional politics. The irony — and the error—are clear, yet the downward spiral remains largely unaddressed.
           </p>
 
           <p className="text-lg leading-relaxed paragraph">
-            Just as an illness cannot generate its own cure, focus on a single leadership domain cannot resolve the atrophy in life that it causes. Becoming more integrated, balanced, and resilient leaders requires support across multiple domains—arguably the least important of which is what we do for work.
+            Just as an illness cannot generate its own cure, focus on a single leadership domain cannot resolve the atrophy in life that it causes. Becoming more integrated, balanced, and resilient leaders requires support across multiple domains — arguably the least important of which is what we do for work.
           </p>
 
           <p className="text-lg leading-relaxed paragraph">
-            The Executive Parent Company is committed to the simple idea that there are better ways to live and lead—that winning at work should not mean losing at life.
+            The Executive Parent Company is committed to the simple idea that there are better ways to live and lead — that winning at work should not mean losing at life.
           </p>
         </div>
 
