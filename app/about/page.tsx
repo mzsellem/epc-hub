@@ -67,8 +67,8 @@ export default function AboutPage() {
     <div className="space-y-4">
       <p className="text-base sm:text-lg leading-relaxed paragraph">
         Despite decades in leadership roles at some of the most recognized and
-        respected companies in the world, I maintained a separation between
-        professional association and personal identity. I recognized that even
+        respected companies in the world, Kenyada maintained a separation between
+        professional association and personal identity. He recognized that even
         the most senior and tenured leaders often have little lasting control 
         over the companies - and reputations - in which they conveniently choose, 
         or sometimes find it necessary, to cloak themselves.
