@@ -27,7 +27,7 @@ export default function AboutPage() {
   {/* Section I */}
   <section className="space-y-6">
     <header className="text-xl sm:text-2xl font-bold">
-      I. Who is the Founder and What is The Executive Parent Company?
+      I. What is The Executive Parent Company &  Who is the Founder?
     </header>
 
     <div className="space-y-4">
