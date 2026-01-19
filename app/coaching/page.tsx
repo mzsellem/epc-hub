@@ -23,7 +23,7 @@ export default function CoachingPage() {
           </header>
 
           {/* Sections */}
-          <section className="space-y-16">
+          <section className="space-y-10">
 
             {/* Section Block */}
             <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
