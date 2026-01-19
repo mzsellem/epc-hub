@@ -85,10 +85,10 @@ export default function AboutPage() {
       <p className="text-base sm:text-lg leading-relaxed paragraph">
         The result is that countless millions of people, their families, and the 
         organizations they comprise are rendered weaker and less cohesive than they 
-        often claim or appear to be. What it means to be a leader within this self-referential 
-        and reliant Ponzi scheme becomes less about protecting personal principles and more 
-        about navigating professional politics. The irony - and the error - are clear, yet the 
-        downward spiral remains largely unaddressed.
+        often claim or appear to be. What it means to be a leader within becomes less 
+        about protecting personal principles and more about navigating professional 
+        politics. The irony - and the error - are clear, yet the downward spiral remains 
+        largely unaddressed.
       </p>
 
       <p className="text-base sm:text-lg leading-relaxed paragraph">
