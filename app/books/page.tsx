@@ -42,7 +42,7 @@ export default function BooksPage() {
             </p>
 
             <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
-              Grounded in the Balanced Leadership and Legacy framework, The 
+              Grounded in the Balanced Leadership Institute framework, The 
               New Alpha serves as a modern roadmap for individuals, families, 
               and organizations determined to thrive in a meaningful, comprehensive, 
               and sustainable way.
