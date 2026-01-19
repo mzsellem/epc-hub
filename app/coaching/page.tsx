@@ -15,7 +15,7 @@ export default function CoachingPage() {
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
           {/* Page Title */}
           <header className="flex flex-col items-center space-y-6">
-            <p className="max-w-3xl text-lg opacity-85 text-center w-2/3">
+            <p className="text-2xl opacity-85 text-center w-5/6">
               Executive coaching designed to cultivate integrated leadership, sustainable excellence,
               and a legacy aligned across work, home, and self.
             </p>
