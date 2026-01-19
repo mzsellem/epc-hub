@@ -26,7 +26,7 @@ export default function CoachingPage() {
 
             {/* Section Block */}
             <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-6 sm:p-10 space-y-5 text-left">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl sm:text-2xl font-semibold">
                 Executive Coaching for Balanced Leadership & Legacy
               </h2>
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
@@ -40,7 +40,7 @@ export default function CoachingPage() {
             </div>
 
           <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl sm:text-2xl font-semibold">
                 Professional & Personal Coaching Qualifications
               </h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8 pl-5 list-disc opacity-80">
@@ -58,7 +58,7 @@ export default function CoachingPage() {
             </div>
 
             <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl sm:text-2xl font-semibold">
                 Client Commitment
               </h2>
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
@@ -69,7 +69,7 @@ export default function CoachingPage() {
             </div>
 
             <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl sm:text-2xl font-semibold">
                 Return on Investment
               </h2>
               <p className="text-base md:text-lg opacity-85">
@@ -94,7 +94,7 @@ export default function CoachingPage() {
             </div>
 
             <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-xl sm:text-2xl font-semibold">
                 Investment in Leadership & Legacy
               </h2>
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
@@ -118,10 +118,10 @@ export default function CoachingPage() {
               }}
             />
             <div className="relative max-w-3xl mx-auto text-center space-y-8 px-6">
-              <p className="text-xl font-semibold">
+              <p className="text-lg font-semibold">
                 “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
               </p>
-              <p className="text-xl opacity-75">- Abraham Maslow</p>
+              <p className="text-lg opacity-75">- Abraham Maslow</p>
               <Link href="/coaching/scheduling">
                 <button className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out">
                   Schedule
