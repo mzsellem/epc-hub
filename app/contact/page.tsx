@@ -12,15 +12,8 @@ export default function ContactPage() {
         
         {/* Title */}
         <h1 className="text-2xl font-semibold header">
-        For speaking engagements, workshops, or other inquiries,<br />
-          connect with us.
+        Connect directly with the Founder for strategic advisory services, private workshops, and speaking engagements:
         </h1>
-
-        {/* Description */}
-        {/* <p className="text-xl leading-relaxed paragraph">
-          For speaking engagements, workshops, or other inquiries,<br />
-          connect with us.
-        </p> */}
 
         {/* Email */}
         <a
@@ -32,6 +25,8 @@ export default function ContactPage() {
           py-2
           text-center
           break-all
+          text-2xl
+          font-extrabold
           "
         >
           kenyada@executiveparentcompany.com
