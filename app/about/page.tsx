@@ -77,7 +77,7 @@ export default function AboutPage() {
       <p className="text-base sm:text-lg leading-relaxed paragraph">
         This too-common default of assuming a ready-made corporate identity as 
         a source of real personal value and belonging continues to leave 
-        individuals unfulfilled and, ironically, more vulnerable - seeking validation
+        individuals unfulfilled and, ironically, more vulnerable. Seeking validation
         from equally misguided people while steadily compromising personal boundaries, 
         integrity, and the most critical relationships along the way.
       </p>
