@@ -52,7 +52,7 @@ export default function AboutPage() {
 
       <p className="text-lg leading-relaxed paragraph">
         His coaching is distinguished by the way it fuses governance discipline
-        with deep human insight — translating complexity into clear, confident
+        with deep human insight - translating complexity into clear, confident
         action.
       </p>
     </div>
@@ -68,23 +68,38 @@ export default function AboutPage() {
       <p className="text-lg leading-relaxed paragraph">
         Despite decades in leadership roles at some of the most recognized and
         respected companies in the world, I maintained a separation between
-        professional association and personal identity.
+        professional association and personal identity. I recognized that even
+        the most senior and tenured leaders often have little lasting control 
+        over the companies - and reputations - in which they conveniently choose, 
+        or sometimes find it necessary, to cloak themselves.
       </p>
 
       <p className="text-lg leading-relaxed paragraph">
-        Even the most senior leaders often mistake proximity for purpose,
-        cloaking themselves in institutions that offer limited permanence or
-        control.
+        This too-common default of assuming a ready-made corporate identity as 
+        a source of real personal value and belonging continues to leave 
+        individuals unfulfilled and, ironically, more vulnerable - seeking validation
+        from equally misguided people while steadily compromising personal boundaries, 
+        integrity, and the most critical relationships along the way.
       </p>
 
       <p className="text-lg leading-relaxed paragraph">
-        This default leaves individuals increasingly vulnerable — seeking
-        validation while compromising personal boundaries and integrity.
+        The result is that countless millions of people, their families, and the 
+        organizations they comprise are rendered weaker and less cohesive than they 
+        often claim or appear to be. What it means to be a leader within this self-referential 
+        and reliant Ponzi scheme becomes less about protecting personal principles and more 
+        about navigating professional politics. The irony - and the error - are clear, yet the 
+        downward spiral remains largely unaddressed.
       </p>
 
       <p className="text-lg leading-relaxed paragraph">
-        The Executive Parent Company exists to advance a simple truth:
-        winning at work should not mean losing at life.
+        Just as an illness cannot generate its own cure, focus on a single leadership domain 
+        cannot resolve the atrophy in life that it causes. Becoming more integrated, balanced, 
+        and resilient leaders requires support across multiple domains - arguably the least important 
+        of which is what we do for work.
+      </p>
+        <p className="text-lg leading-relaxed paragraph">
+        The Executive Parent Company is committed to the simple idea that there are better ways to 
+        live and lead—that winning at work should not mean losing at life.
       </p>
     </div>
   </section>
