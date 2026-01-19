@@ -7,8 +7,8 @@ export default function AboutPage() {
       <Header />
 
       {/* Main content */}
-      <main className="grow flex flex-col items-center px-6 py-12 w-full">
-        <div className="max-w-4xl w-full flex flex-col space-y-10">
+      <main className="grow w-full px-6 py-12">
+        <div className="max-w-4xl mx-auto flex flex-col space-y-10">
           <h1 className="text-4xl font-semibold header mb-4 text-center">
             About
           </h1>          

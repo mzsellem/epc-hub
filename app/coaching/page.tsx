@@ -7,16 +7,15 @@ export default function CoachingPage() {
     <div className="flex flex-col min-h-screen font-sans bg-[#1f1f1f] text-white">
       <Header />
 
-      <main className="grow w-full px-6 py-24">
-        <div className="max-w-5xl mx-auto space-y-15">
-
+      <main className="grow w-full px-6 py-12">
+        <div className="max-w-4xl mx-auto flex flex-col space-y-10">
+<h1 className="text-4xl font-semibold header mb-4 text-center">
+            About
+          </h1>          
+          <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
           {/* Page Title */}
           <header className="flex flex-col items-center space-y-6">
-            <h1 className="text-4xl font-semibold">
-              Coaching
-            </h1>
-            <div className="w-24 h-0.5 bg-[#967000] rounded-full" />
-            <p className="max-w-3xl text-lg opacity-85 text-center w-2/3 mt-4">
+            <p className="max-w-3xl text-lg opacity-85 text-center w-2/3">
               Executive coaching designed to cultivate integrated leadership, sustainable excellence,
               and a legacy aligned across work, home, and self.
             </p>
