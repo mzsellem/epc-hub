@@ -85,9 +85,9 @@ export default function AboutPage() {
       <p className="text-base sm:text-lg leading-relaxed paragraph">
         The result is that countless millions of people, their families, and the 
         organizations they comprise are rendered weaker and less cohesive than they 
-        often claim or appear to be. What it means to be a leader within becomes less 
+        often claim or appear to be. What it means to be a leader becomes less 
         about protecting personal principles and more about navigating professional 
-        politics. The irony - and the error - are clear, yet the downward spiral remains 
+        politics. Both the irony and error are clear, yet the downward spiral remains 
         largely unaddressed.
       </p>
 
@@ -99,7 +99,7 @@ export default function AboutPage() {
       </p>
         <p className="text-base sm:text-lg leading-relaxed paragraph">
         The Executive Parent Company is committed to the simple idea that there are better ways to 
-        live and lead—that winning at work should not mean losing at life.
+        live and lead - that winning at work should not mean losing at life.
       </p>
     </div>
   </section>
