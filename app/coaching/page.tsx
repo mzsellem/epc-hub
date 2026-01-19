@@ -102,9 +102,8 @@ export default function CoachingPage() {
                 Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:
               </p>
               <ul className="space-y-3 pl-5 list-disc opacity-80">
-                <li>10-week Balanced Leadership & Legacy Intensive — $8,500</li>
+                <li>10-week Balanced Leadership & Legacy Intensive - $8,500</li>
               </ul>
-              <p>Entry Option:</p>
               <ul className="space-y-3 pl-5 list-disc opacity-80">
                 <li>Diagnostic and Readiness Assessment for Balanced Leadership and Legacy - $1,875</li>
               </ul>
