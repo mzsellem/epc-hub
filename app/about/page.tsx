@@ -105,13 +105,13 @@ export default function AboutPage() {
             />
             <div className="relative w-full max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
               <h1 className="text-2xl md:text-3xl font-semibold">
-                Work With Kenyada
+                Take The First Step
               </h1>
               <a
                 href="/books"
                 className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out"
               >
-                Explore
+                Schedule
               </a>
             </div>
           </section>
