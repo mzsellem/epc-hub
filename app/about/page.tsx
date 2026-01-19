@@ -55,7 +55,7 @@ export default function AboutPage() {
         {/* Section II */}
 <section className="w-full max-w-4xl mx-auto flex flex-col space-y-6">
 
-    <header className='text-2xl font-bold mt-10'>II. Why The Executive Parent Company Exists</header>
+    <header className='text-2xl font-bold mt-10'>II. The Executive Parent Company: An Urgent Need</header>
 
   {/* Two-Column Content */}
   <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
