@@ -111,7 +111,7 @@ export default function CoachingPage() {
           </section>
 
           {/* CTA */}
-          <section className="relative py-24 mt-24 rounded-2xl overflow-hidden">
+          <section className="relative py-24 rounded-2xl overflow-hidden">
             <div
               className="absolute inset-0"
               style={{
