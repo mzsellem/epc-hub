@@ -37,7 +37,7 @@ export default function BooksPage() {
             <p className="text-lg leading-relaxed paragraph max-w-xl mx-auto">
              This guide helps ambitious individuals challenge narrow definitions of 
              success, and offers a practical approach to living and leading with 
-             balance across the three domains – the relationships at work, home, 
+             balance across the three domains - the relationships at work, home, 
              and with oneself.
             </p>
 
