@@ -108,9 +108,6 @@ export default function CoachingPage() {
               <ul className="space-y-3 pl-5 list-disc opacity-80">
                 <li>Diagnostic and Readiness Assessment for Balanced Leadership and Legacy - $1,875</li>
               </ul>
-              <p className="text-base md:text-lg font-semibold opacity-90 pt-4">
-                Custom engagements available upon request.
-              </p>
             </div>
 
           </section>
