@@ -117,7 +117,7 @@ export default function CoachingPage() {
                   'radial-gradient(circle at center, rgba(255,255,255,0.06) 0%, rgba(31,31,31,1) 70%)',
               }}
             />
-            <div className="relative max-w-3xl mx-auto text-center space-y-8 px-6">
+            <div className="relative max-w-3xl mx-auto text-center space-y-5 px-6">
               <p className="text-lg font-semibold">
                 “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
               </p>
