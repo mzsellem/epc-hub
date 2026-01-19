@@ -7,7 +7,7 @@ export default function CoachingPage() {
     <div className="flex flex-col min-h-screen font-sans bg-[#1f1f1f] text-white">
       <Header />
 
-      <main className="grow w-full px-6 py-12">
+      <main className="grow w-full px-4 sm:px-6 py-10 sm:py-12">
         <div className="max-w-4xl mx-auto flex flex-col space-y-10">
           <h1 className="text-4xl font-semibold header mb-4 text-center"> 
             Coaching
@@ -15,7 +15,7 @@ export default function CoachingPage() {
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
           {/* Page Title */}
           <header className="flex flex-col items-center space-y-6">
-            <p className="text-2xl opacity-85 text-center w-5/6">
+          <p className="text-lg sm:text-2xl opacity-85 text-center max-w-xl sm:max-w-3xl">
               Executive coaching designed to cultivate integrated leadership, sustainable excellence,
               and a legacy aligned across work, home, and self.
             </p>
@@ -25,7 +25,7 @@ export default function CoachingPage() {
           <section className="space-y-10">
 
             {/* Section Block */}
-            <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-10 space-y-6 text-left">
+            <div className="max-w-4xl mx-auto border border-white/10 rounded-2xl p-6 sm:p-10 space-y-5 text-left">
               <h2 className="text-2xl font-semibold">
                 Executive Coaching for Balanced Leadership & Legacy
               </h2>
@@ -109,7 +109,7 @@ export default function CoachingPage() {
           </section>
 
           {/* CTA */}
-          <section className="relative py-24 rounded-2xl overflow-hidden">
+          <section className="relative py-16 sm:py-24 rounded-2xl overflow-hidden">
             <div
               className="absolute inset-0"
               style={{
