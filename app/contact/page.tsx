@@ -25,7 +25,7 @@ export default function ContactPage() {
           py-2
           text-center
           break-all
-          text-2xl
+          text-xl
           font-extrabold
           "
         >
