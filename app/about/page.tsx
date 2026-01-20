@@ -120,7 +120,7 @@ export default function AboutPage() {
             />
             <div className="relative w-full max-w-4xl mx-auto text-center flex flex-col items-center space-y-6">
               <h1 className="text-2xl md:text-3xl font-semibold">
-                Take The First Step
+                Take Action
               </h1>
               <a
                 href="/coaching/scheduling"
