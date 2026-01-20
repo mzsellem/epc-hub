@@ -67,7 +67,7 @@ export default function AboutPage() {
     <div className="space-y-4">
       <p className="text-base sm:text-lg leading-relaxed paragraph">
         Despite decades in leadership roles at some of the most recognized and
-        respected companies in the world, Kenyada maintained a separation between
+        respected companies in the world, Kenyada always worked to maintain a separation between
         professional association and personal identity. He recognized that even
         the most senior and tenured leaders often have little lasting control 
         over the companies - and reputations - in which they conveniently choose, 
@@ -79,7 +79,7 @@ export default function AboutPage() {
         a source of real personal value and belonging continues to leave 
         individuals unfulfilled and, ironically, more vulnerable. Seeking validation
         from equally misguided people while steadily compromising personal boundaries, 
-        integrity, and the most critical relationships along the way.
+        integrity, and the most critical relationships along the way is not leadership.
       </p>
 
       <p className="text-base sm:text-lg leading-relaxed paragraph">

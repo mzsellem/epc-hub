@@ -16,7 +16,7 @@ export default function CoachingPage() {
           </h1>
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
 
-          <p className="text-md sm:text-xl md:text-2xl opacity-85 text-center max-w-3xl mx-auto">
+          <p className="text-md sm:text-xl md:text-2xl opacity-85 font-semibold text-center max-w-3xl mx-auto">
             Executive coaching designed to cultivate integrated leadership, sustainable excellence,
             and a legacy aligned across work, home, and self.
           </p>
@@ -147,7 +147,7 @@ export default function CoachingPage() {
               <p className="text-lg opacity-75">- Abraham Maslow</p>
               <Link href="/coaching/scheduling">
                 <button className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out">
-                  Begin the Work
+                  Take Action
                 </button>
               </Link>
             </div>
