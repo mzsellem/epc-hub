@@ -48,10 +48,9 @@ export default function CoachingPage() {
               </h3>
 
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8 pl-5 list-disc opacity-80">
-                <li>Wall Street Executive</li>
-                <li>Big Four & Cross-Industry Strategist</li>
-                <li>Certified Executive Coach</li>
+                <li>Wall Street Executive & Big Four & Cross-Industry Strategy Experience</li>
                 <li>Qualified Financial Expert</li>
+                <li>Certified Executive Coach</li>
                 <li>Harvard Business School Alumnus</li>
                 <li>Governing Board & Committee Member</li>
                 <li>University Graduate School Lecturer</li>
