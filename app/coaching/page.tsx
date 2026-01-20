@@ -142,12 +142,11 @@ export default function CoachingPage() {
             />
             <div className="relative max-w-3xl mx-auto text-center space-y-5 px-6">
               <p className="text-lg font-semibold">
-                “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.”
+                “You owe it to yourself and to those who depend on you to become who you’re capable of becoming.” <span className="opacity-75">- Abraham Maslow</span>
               </p>
-              <p className="text-lg opacity-75">- Abraham Maslow</p>
               <Link href="/coaching/scheduling">
                 <button className="px-8 py-3 text-lg font-medium rounded-2xl border border-white/20 shadow-[0_0_25px_rgba(255,255,255,0.08)] hover:bg-[#DDAD11] hover:text-black transition-all duration-300 ease-out">
-                  Take Action
+                  Schedule
                 </button>
               </Link>
             </div>
