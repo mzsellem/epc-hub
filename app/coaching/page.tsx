@@ -15,7 +15,7 @@ export default function CoachingPage() {
           </h1>
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
 
-          <p className="text-md sm:text-xl md:text-xl font-semibold text-center max-w-3xl mx-auto">
+          <p className="text-lg sm:text-lg md:text-xl font-semibold text-center max-w-3xl mx-auto p-6">
             Executive coaching designed to cultivate integrated leadership, sustainable excellence,
             and a legacy aligned across work, home, and self.
           </p>
@@ -23,7 +23,7 @@ export default function CoachingPage() {
           {/* PHASE I */}
           <section className="space-y-6">
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-5">
-              <h3 className="text-lg sm:text-xl font-semibold">
+              <h3 className="text-lg font-semibold">
                 Executive Coaching for Balanced Leadership & Legacy
               </h3>
 
@@ -43,7 +43,7 @@ export default function CoachingPage() {
           <section className="space-y-6">
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-6">
 
-              <h3 className="text-lg sm:text-xl font-semibold">
+              <h3 className="text-lg font-semibold">
                 Professional and Personal Coaching Qualifications
               </h3>
 
@@ -61,7 +61,7 @@ export default function CoachingPage() {
                 <li>Whole-life Leader & Balanced Legacy Builder</li>
               </ul>
 
-              <h3 className="text-lg sm:text-xl font-semibold pt-6">
+              <h3 className="text-lg font-semibold pt-6">
                 Client Commitment
               </h3>
 
@@ -77,7 +77,7 @@ export default function CoachingPage() {
           <section className="space-y-6">
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-6">
 
-              <h3 className="text-lg sm:text-xl font-semibold">
+              <h3 className="text-lg font-semibold">
                 Lasting Change, Measurable Results
               </h3>
 
@@ -103,7 +103,7 @@ export default function CoachingPage() {
                 <li>Eligible family member or business partner sessions</li>
               </ul>
 
-              <p className="text-base md:text-lg opacity-85 max-w-3xl">
+              <p className="text-base opacity-85 max-w-3xl">
                 Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:
               </p>
 
