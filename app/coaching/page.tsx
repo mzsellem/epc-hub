@@ -23,10 +23,6 @@ export default function CoachingPage() {
 
           {/* PHASE I */}
           <section className="space-y-6">
-            <h2 className="text-xl sm:text-2xl font-semibold text-[#DDAD11]">
-              Phase I — Clarity & Alignment
-            </h2>
-
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-5">
               <h3 className="text-lg sm:text-xl font-semibold">
                 Executive Coaching for Balanced Leadership & Legacy
@@ -46,10 +42,6 @@ export default function CoachingPage() {
 
           {/* PHASE II */}
           <section className="space-y-6">
-            <h2 className="text-xl sm:text-2xl font-semibold text-[#DDAD11]">
-              Phase II — Integration & Execution
-            </h2>
-
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-6">
 
               <h3 className="text-lg sm:text-xl font-semibold">
@@ -84,10 +76,6 @@ export default function CoachingPage() {
 
           {/* PHASE III */}
           <section className="space-y-6">
-            <h2 className="text-xl sm:text-2xl font-semibold text-[#DDAD11]">
-              Phase III — Legacy & Continuity
-            </h2>
-
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-6">
 
               <h3 className="text-lg sm:text-xl font-semibold">
@@ -115,10 +103,6 @@ export default function CoachingPage() {
                 <li>Full-day strategy session and workshop (virtual or in-person)</li>
                 <li>Eligible family member or business partner sessions</li>
               </ul>
-
-              <h3 className="text-lg sm:text-xl font-semibold pt-6">
-                Investment in Leadership & Legacy
-              </h3>
 
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
                 Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:
