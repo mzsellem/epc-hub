@@ -7,11 +7,11 @@ export default function AboutPage() {
       <Header />
 
       {/* Main content */}
-      <main className="grow w-full px-4 sm:px-6 md:px-10">
-        <div className="max-w-4xl mx-auto flex flex-col space-y-10">
-          <h1 className="text-4xl font-semibold header mb-4 text-center">
+    <main className="grow flex flex-col items-center px-6 py-12 w-full">
+      <div className="w-full max-w-4xl flex flex-col space-y-10">
+          <h1 className="text-4xl font-semibold header mb-4 text-white text-center">
             About
-          </h1>          
+          </h1>
           <div className="w-24 sm:w-32 md:w-40 h-0.5 bg-[#DDAD11] mx-auto rounded-full"></div>
 
 {/* Image */}
