@@ -24,17 +24,16 @@ export default function CoachingPage() {
           <section className="space-y-6">
             <div className="border border-white/10 rounded-2xl p-6 sm:p-10 space-y-5">
               <h3 className="text-lg font-semibold">
-                Executive Coaching for Balanced Leadership & Legacy
+                Executive Coaching for Balanced Contribution, Leadership & Legacy
               </h3>
 
               <p className="text-base md:text-lg opacity-85 max-w-3xl">
-                This unique coaching system develops sustainable excellence and integrated leadership across the three domains – relationships at work, home, and with oneself. Examples of coaching outcomes that align and accentuate whole-life goals include:
-              </p>
+This unique coaching system develops sustainable excellence and integrated leadership across the three domains – relationships at work, home, and with oneself. Examples of coaching outcomes that accentuate whole-life goals include:</p>
 
               <ul className="space-y-3 pl-5 list-disc opacity-80">
                 <li>Work: Reputation optimization, relationship management, boundary setting</li>
-                <li>Home: Multidirectional communication, enhanced listening, formal success measures</li>
-                <li>Self: Values identification and alignment, emotional awareness, improved vitality</li>
+                <li>Home: Significantly improved communication via enhanced listening and authentic expression, establishing mutually accepted success measures</li>
+                <li>Self: Values identification and alignment, enhanced emotional intelligence and awareness, improved vitality</li>
               </ul>
             </div>
           </section>
@@ -48,16 +47,16 @@ export default function CoachingPage() {
               </h3>
 
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-8 pl-5 list-disc opacity-80">
-                <li>Wall Street Executive & Big Four & Cross-Industry Strategy Experience</li>
-                <li>Qualified Financial Expert</li>
                 <li>Certified Executive Coach</li>
                 <li>Harvard Business School Alumnus</li>
+                <li>Qualified Financial Expert</li>
                 <li>Governing Board & Committee Member</li>
                 <li>University Graduate School Lecturer</li>
                 <li>Published Author</li>
-                <li>Multicultural & Multilingual</li>
+                <li>Multicultural & Multilingual Global Citizen</li>
                 <li>Values Driven & People-Centered</li>
-                <li>Whole-life Leader & Balanced Legacy Builder</li>
+                <li>Wall Street Executive & Big Four & Cross-Industry Strategy Experience</li>
+                <li>Balanced-Legacy Builder</li>
               </ul>
 
               <h3 className="text-lg font-semibold pt-6">
@@ -85,7 +84,7 @@ export default function CoachingPage() {
               </p>
 
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
-                <li>Five (5) intensive hour-long executive coaching sessions</li>
+                <li>Eight (8) intensive hour-long executive coaching sessions</li>
                 <li>Whole-life goal setting</li>
                 <li>Success metrics setup and monitoring</li>
                 <li>Skills optimization and integration across domains</li>
@@ -94,7 +93,7 @@ export default function CoachingPage() {
               </ul>
 
               <p className="text-base md:text-lg opacity-85 pt-4">
-                Deepening the work after two (2) modules:
+                Deepening the work after completion of the first module:
               </p>
 
               <ul className="space-y-3 pl-5 list-disc opacity-80 max-w-3xl">
@@ -103,12 +102,11 @@ export default function CoachingPage() {
               </ul>
 
               <p className="text-base opacity-85 max-w-3xl">
-                Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:
-              </p>
+Confirm your unwavering commitment to elevated, integrated leadership, the enriched life you envision, and the lives you influence. Your life and legacy will be measured, not by invested time or effort, but by whole-life outcomes:              </p>
 
               <ul className="space-y-3 pl-5 list-disc opacity-80">
-                <li>10-week Balanced Leadership & Legacy Intensive - $8,500</li>
-                <li>Diagnostic and Readiness Assessment for Balanced Leadership & Legacy - $1,875</li>
+                <li>10-week Retainer includes; Balanced Contribution, mLeadership & Legacy Intensive, ongoing problem-solving, feedback & support  - $8,250</li>
+                <li>Diagnostic and Readiness Assessment for Balanced Leadership & Legacy - $1,375</li>
               </ul>
             </div>
           </section>
