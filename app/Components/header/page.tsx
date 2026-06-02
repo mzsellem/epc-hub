@@ -88,7 +88,7 @@ export default function Header() {
               ${activeMobileIndex === 1 ? "before:opacity-60" : "before:opacity-0"}
             `}
           >
-            Book
+            Books
           </a>
 
           <a
