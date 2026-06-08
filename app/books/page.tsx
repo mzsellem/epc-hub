@@ -43,7 +43,7 @@ const books = [
       `The New Alpha: A Mirror, Magnifier, and Map.
       Look within deeply. 
       See the world clearly. 
-      Live a life richer in people and purpose.` ,
+      Live a life richer in people and purpose.`,
     ],
     buyLink: "https://a.co/d/1SEiErQ",
   },
