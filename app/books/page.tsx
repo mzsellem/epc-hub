@@ -103,10 +103,10 @@ export default function BooksPage() {
 
       <main className="grow flex flex-col items-center justify-start px-6 py-12 w-full max-w-4xl space-y-24">
         <section
-  className="text-center relative w-full"
+  className="text-left relative w-full"
   style={{ backgroundColor: "#1F1F1F" }}
 >
-  <h1 className="text-4xl font-semibold header mb-4 text-white">
+  <h1 className="text-4xl font-semibold header mb-4 text-white text-center">
     Featuring
   </h1>
 
