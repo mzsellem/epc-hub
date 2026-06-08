@@ -66,7 +66,7 @@ export default function Home() {
         >
           {[
             { href: "/about", label: "About" },
-            { href: "/books", label: "Book" },
+            { href: "/books", label: "Books" },
             { href: "/coaching", label: "Coaching" },
             { href: "/contact", label: "Contact" },
           ].map((link, i) => (
