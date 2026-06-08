@@ -18,9 +18,9 @@ const books = [
       This risk of suppression is a pervasive and persistent feature of
       professional life, and a serious framework is required to properly
       evaluate and address it, as well as the downstream consequences
-      when risk becomes loss.`,
+      when risk becomes loss.
 
-      `The P.A.S.S.E.N.G.E.R. Seat—a nine-discipline framework—does
+      The P.A.S.S.E.N.G.E.R. Seat—a nine-discipline framework—does
       precisely that by providing critical insights and practical tools for:
 
       • Individual Contributors
