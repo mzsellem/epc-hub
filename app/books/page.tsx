@@ -40,7 +40,10 @@ const books = [
     image: "/the-new-alpha.png",
     alt: "The New Alpha book cover",
     description: [
-      "",
+      `The New Alpha: A Mirror, Magnifier, and Map.
+      Look within deeply. 
+      See the world clearly. 
+      Live a life richer in people and purpose.`,
     ],
     buyLink: "https://a.co/d/1SEiErQ",
   },
@@ -126,8 +129,8 @@ export default function BooksPage() {
     key={book.title}
     image={book.image}
     alt={book.alt}
+    description={book.description}
     buyLink={book.buyLink}
-    showDescription={false}
   />
 ))}
 </section>
