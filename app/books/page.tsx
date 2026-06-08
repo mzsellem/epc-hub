@@ -3,7 +3,7 @@ import Footer from "../Components/footer/page";
 
 const books = [
   {
-    title: "The New Alpha",
+    title: "The P.A.S.S.E.N.G.E.R Seat",
     image: "/the-passenger-seat.png",
     alt: "The P.A.S.S.E.N.G.E.R Seat book cover",
     description: [
@@ -58,24 +58,32 @@ function BookCard({
   description,
   buyLink,
   showDescription = true,
+  glow = true,
 }: {
   image: string;
   alt: string;
   description?: string[];
   buyLink: string;
   showDescription?: boolean;
+  glow?: boolean;
 }) {
   return (
-    <div className="flex flex-col items-center space-y-8 backdrop-blur-sm p-6 shadow-2xl relative rounded-xl">
-      <img
-        src={image}
-        alt={alt}
-        className="w-64 rounded-lg shadow-xl"
-        style={{
-          background: "#1F1F1F",
-          boxShadow: "0 0 80px 30px rgba(63,125,99,0.25)",
-        }}
-      />
+   <div
+  className={`flex flex-col items-center space-y-8 backdrop-blur-sm p-6 relative rounded-xl ${
+    glow ? "shadow-2xl" : ""
+  }`}
+>
+  <img
+    src={image}
+    alt={alt}
+    className={`w-64 rounded-lg ${glow ? "shadow-xl" : ""}`}
+    style={{
+      background: "#1F1F1F",
+      boxShadow: glow
+  ? "0 0 80px 30px rgba(221,173,17,0.25)"
+  : "none",
+    }}
+  />
 
       {showDescription &&
         description?.map((paragraph, index) => (
@@ -121,6 +129,7 @@ export default function BooksPage() {
   alt={featuredBook.alt}
   description={featuredBook.description}
   buyLink={featuredBook.buyLink}
+  glow={true}
 />
 
   {/* Additional Books */}
@@ -131,6 +140,7 @@ export default function BooksPage() {
     alt={book.alt}
     description={book.description}
     buyLink={book.buyLink}
+    glow={false}
   />
 ))}
 </section>
